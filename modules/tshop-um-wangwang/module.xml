@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-wangwang</id>
+    <name>阿里旺旺</name>
+    <file>tshop-um-wangwang.php</file>
+    <thumbnail>../../assets/images/wangwang.png</thumbnail>
+    <description>自定义旺旺背景图！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

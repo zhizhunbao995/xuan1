@@ -1,0 +1,14 @@
+#content {
+	background-color:#F46791 ;
+
+	background-repeat:repeat-x ;
+	background-position:;
+}
+
+#hd {
+	background-image:url(assets/images/tshop-pbsm-shop-custom-banner.png) ;
+	background-color:#F1F1F1;
+	background-repeat:repeat-x ;
+	background-position: bottom;
+	height:150px;
+}

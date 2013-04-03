@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-950img-list-show</id>
+    <name>三张宝贝展示模块</name>
+    <file>tshop-um-950img-list-show.php</file>
+    <thumbnail>../../assets/images/3img.png</thumbnail>
+    <description>多尺寸(950/750/550)宝贝展示模块，满足您全部宝贝的展现方式，不同布局适合您自己的个性化设计！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="选择您想展示的宝贝">
+            <section folded="false" title="请选择三项宝贝">
+                <param ptype="item" name="t-item" label="选择宝贝" formType="itemForm" description="宝贝图片最好是"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

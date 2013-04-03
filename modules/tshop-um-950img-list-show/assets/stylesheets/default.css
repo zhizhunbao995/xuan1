@@ -1,0 +1,31 @@
+/**
+ * 模块：tshop-um-950img-list-show 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-950img-list-show"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-950img-list-show {margin-bottom:10px;}
+.tshop-um-950img-list-show .float_l{ float:left;}
+.tshop-um-950img-list-show .float_r{ float:right;}
+.tshop-um-950img-list-show .position{ position:absolute;}
+.tshop-um-950img-list-show .clear{*zoom:1;}
+.tshop-um-950img-list-show .clear:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-950img-list-show .xuan-imglist{ height:310px; }
+.tshop-um-950img-list-show .xuan-imglist ul{ overflow:hidden; width:970px;}
+.tshop-um-950img-list-show .xuan-imglist ul li{ float:left; height:310px; margin-right:10px; position:relative; border:1px solid #FB886B; width:308px; _width:310px; background:#FFDC9C; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info{ position:absolute; bottom:0px;height:50px; background:#FFF4DF url(./././assets/images/info_bg.png) repeat-x; width:100%; border-top:1px solid #D33953;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price{ color:#D84E66; font-size:24px;  height:50px; padding-top:17px; padding-right:5px;font-style: italic; 
+font-family: Constantia, Georgia; right:0px; top:0px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price span{ font-size:12px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_self_custom{ background:#D9414D; float:left; height:50px; line-height:50px; width:50px; text-align:center; color:#fff; font-family: "黑体"; font-weight:bold; font-size:15px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .count_hot{ padding-top:5px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales{ color:#F98166;padding-left:10px;  }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales strong{ font-weight:bold; font-size:12px; color:#D33953; font-family:"Arial Black", Gadget, sans-serif; padding-left:3px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_title{ color:#A54505; font-size:12px; padding-left:10px;margin-bottom:6px; height:18px; overflow:hidden; width:180px; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img-box{ overflow:hidden;}
+
+ 

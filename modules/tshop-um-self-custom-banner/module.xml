@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-self-custom-banner</id>
+    <name>自定义店招</name>
+    <file>tshop-um-self-custom-banner.php</file>
+    <thumbnail>../../assets/images/shop_bannew.png</thumbnail>
+    <description>自定义店铺招牌，包括所有你想要展示的文字及内容！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>
