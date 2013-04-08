@@ -1,13 +1,28 @@
 /**
- * Ä£¿é£ºtshop-um-wangwang 
- * Æ¤·ô£¨Ö÷Ìâ£©: Ä¬ÈÏ
- * ¹æÔò:
- * 		1. CSSÑ¡ÔñÆ÷±ØĞë°üº¬ ".tshop-um-wangwang"£¬½ûÖ¹Ê¹ÓÃÄ£¿éÒ³ÃæÔªËØµÄIDÑ¡ÔñÆ÷
- *		2. CSSÑùÊ½ÉùÃ÷µÄpositionÊôĞÔÖµ²»ÄÜÊ¹ÓÃ:fixed
- *		3. CSSÑùÊ½ÎÄ¼şÖĞz-indexÊôĞÔÖµ±ØĞëÔÚ1-99Ö®¼ä
- *		4. CSS URLµØÖ·±ØĞëÊÇÌÔ±¦URL°×Ãûµ¥ÖĞ»òÕß±¾µØ£¨Ïà¶Ô»ò¾ø¶Ô£©URL 
+
+ * æ¨¡å—ï¼štshop-um-wangwang 
+
+ * çš®è‚¤ï¼ˆä¸»é¢˜ï¼‰: é»˜è®¤
+
+ * è§„åˆ™:
+
+ * 		1. CSSé€‰æ‹©å™¨å¿…é¡»åŒ…å« ".tshop-um-wangwang"ï¼Œç¦æ­¢ä½¿ç”¨æ¨¡å—é¡µé¢å…ƒç´ çš„IDé€‰æ‹©å™¨
+
+ *		2. CSSæ ·å¼å£°æ˜çš„positionå±æ€§å€¼ä¸èƒ½ä½¿ç”¨:fixed
+
+ *		3. CSSæ ·å¼æ–‡ä»¶ä¸­z-indexå±æ€§å€¼å¿…é¡»åœ¨1-99ä¹‹é—´
+
+ *		4. CSS URLåœ°å€å¿…é¡»æ˜¯æ·˜å®URLç™½åå•ä¸­æˆ–è€…æœ¬åœ°ï¼ˆç›¸å¯¹æˆ–ç»å¯¹ï¼‰URL 
+
  */
 
-.tshop-um-wangwang {}
 
+
+.tshop-um-wangwang {height: 50px; border: 1px solid #CD577B; padding: 5px 5px 5px 5px; }
+.tshop-um-wangwang .w_cont{background: #FFF0EB url(./././assets/images/bg_wangwang.jpg) no-repeat;height: 50px; padding-left: 100px;}
+.tshop-um-wangwang .w_list a{ background:red ;border: 1px solid red;display: inline-block;width: 20px;height: 20px;}
+.tshop-um-wangwang .w_box{float: left;width: 180px;}
+.tshop-um-wangwang .w_box .w_sever{float: left;}
+.tshop-um-wangwang .J_WangWang{}
  
+

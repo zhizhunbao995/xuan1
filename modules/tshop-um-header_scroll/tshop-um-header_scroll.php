@@ -1,142 +1,145 @@
-<?php
-/**
- ÄÚÈİ¹æÔò£º
- 1.PHPÒ³ÃæÄÚÈİÖ»ÄÜ°üº¬Ò»¸ö¸ùÔªËØ£¨ÔÊĞíÈÎÒâ±êÇ©ÔªËØ£¬ÍÆ¼ö"div"ÔªËØ£©
- 2.¸ùÔªËØÀà¶¨Òå°üº¬£ºclass="tb-module tshop-um tshop-um-header_scroll"£¨classÊôĞÔ¿ÉÒÔÌí¼ÓÄúĞèÒªµÄÀàÑ¡ÔñÆ÷¶¨Òå£©
- 3.ÔªËØclassÊôĞÔÖµ½ûÖ¹ÒÔ"tb-"ºÍ"J_T"×Ö·û¿ªÍ·,³ı[tb-module, J_TWidget, J_CartPluginTrigger, J_TokenSign]ÒÔÍâ
- 4.½ûÖ¹Ê¹ÓÃ<style>±êÇ©£¨ÔªËØ£©
- 5.½ûÖ¹Ê¹ÓÃ<script>±êÇ©£¨ÔªËØ£©
- 6.½ûÖ¹Ê¹ÓÃ<link>±êÇ©£¨ÔªËØ£©
- 7.½ûÖ¹Ê¹ÓÃ±êÇ©£¨ÔªËØ£©µÄidÊôĞÔ
- 8.ÔÊĞíÊ¹ÓÃÔªËØÄÚÁªstyleÊôĞÔ
- */
-?>
-<?php
-//È«¾ÖÊı¾İ
-//±³¾°ÉèÖÃ
-$bgcolor=$_MODULE['cs-bgcolor'];
-$boxHeight=$_MODULE['img_height']?$_MODULE['img_height']:380;
-$allshop = $_MODULE['cetagorylist'];//»ñµÃÀàÄ¿
-$itemNum=0; //¶ÁÈ¡ÓÃ»§Ìá¹©µÄ±¦±´ÊıÁ¿
-$itemList=array();  //±¦±´Êı¾İ
-$imgList=array();   //Í¼Æ¬Êı¾İ
-$provide_imgList=array(
-'assets/images/slide/slide5_03.jpg',
-'assets/images/slide/slide5_03.jpg',
-'assets/images/slide/slide5_03.jpg',
-'assets/images/slide/slide5_06.jpg',
-'assets/images/slide/slide5_06.jpg',
-'assets/images/slide/slide5_06.jpg',
-'assets/images/slide/slide5_06.jpg',
-'assets/images/slide/slide5_06.jpg',
-'assets/images/slide/slide5_06.jpg'
-);
-//´ÓÓÃ»§ÄÇ¸ö»ñÈ¡Êı¾İ
-$itemString=$_MODULE['cs1-item'];
-$idList=explode(',',$itemString);
-//Èç¹ûÓÃ»§Ã»ÓĞÑ¡Ôñ±¦±´,¼ÆËãÊı×éÊıÁ¿»¹ÊÇÎª1,ËùÒÔÒª´¦ÀíÏÂÊı¾İ
-$idList=clearnull($idList);
-
-if(count($idList)==0){
-	//±¦±´Ñ¡ÔñÆ÷Ã»ÓĞÊı¾İ
-	$itemList=getItems(9,$shopCategoryManager,$itemManager);//»ñµÃ±¦±´¶ÔÏóÁĞ±í
-	//´ÓÏµÍ³»ñÈ¡µÄÊı¾İ,Ò»¶¨ÒªÅĞ¶Ï¸öÊı
-	$itemNum=count($itemList);
-}else{
-	//±¦±´Ñ¡ÔñÆ÷ÓĞÊı¾İ
-	$itemList=$itemManager->queryByIds($idList,"hotsell");  
-	$itemNum=count($idList);
-}
-//print_r($itemList);
-//»ñÈ¡Í¼Æ¬
-$bimg=$_MODULE['cs1-bimg'];  //»ñÈ¡´óÍ¼Æ¬
-$bimgArr=explode(',',$bimg);
-$bimgArr=clearnull($bimgArr);
-if(count($bimgArr)==0){
-$imgList=$provide_imgList;
-}else{
-$imgList=$bimgArr;
-}
-//function
-function clearnull($items){
-	foreach($items as $item){
-		if($item){
-		$newItems[]=$item;
-		}else{
-		continue;
-		};
-	}
-	return $newItems;
-}
-function getItems($itemNum,$shopCategoryManager,$itemManager){
-	$catArr=array();//·ÖÀàÊı×é
-	$allShopCategory=$shopCategoryManager->queryAll();
-	
-	foreach($allShopCategory as $shopCategory){
-		//echo $shopCategory->id."\n";
-		$catArr[]=$shopCategory->id;      //ÀàÄ¿ID
-	}
-	//$sonShopCategory = $shopCategoryManager->querySubCategories($catArr[1]);×ÓÀàÄ¿Ñ¡Ôñ
-	$itemArr=array();//²úÆ·Êı×é
-	foreach($catArr as $catId){
-		$itemList=$itemManager->queryByCategory($catId,"hotsell",$itemNum);//²éÑ¯±¦±´ÁĞ±í
-		foreach($itemList as $item){
-		//echo $catId;
-			//ÅĞ¶Ï»ñÈ¡µÄ²úÆ·ÊÇ·ñÎª¿Õ
-			if($item->exist){
-				array_push($itemArr,$item);
-				if(count($itemArr) > ($itemNum-1)) 
-					break;
-			}
-		}
-			if(count($itemArr) > ($itemNum-1)) break;
-		}
-		//echo var_dump($itemArr);
-		//echo count($itemArr);
-		return $itemArr;    
-	}
-// È«ĞÂÍ¼Æ¬µØÖ·
-$num = 5;//Í¼Æ¬µØÖ·ºÍÌø×ªµØÖ·Ò»¹²Îª10
-?>
-
-<div class="tb-module tshop-um tshop-um-header_scroll" <?php echo $_MODULE_TOOLBAR?>>
-<div  class="mall-slide J_TWidget dd" data-widget-type="Carousel" 
-data-widget-config="{'navCls':'ks-switchable-nav','contentCls':'ks-switchable-content','effect': '<?php echo $_MODULE['effect']; ?>',
-'easing': 'easeOutStrong', 'steps':1, 'circular': false, 
+<?php
+/**
+ å†…å®¹è§„åˆ™ï¼š
+ 1.PHPé¡µé¢å†…å®¹åªèƒ½åŒ…å«ä¸€ä¸ªæ ¹å…ƒç´ ï¼ˆå…è®¸ä»»æ„æ ‡ç­¾å…ƒç´ ï¼Œæ¨è"div"å…ƒç´ ï¼‰
+ 2.æ ¹å…ƒç´ ç±»å®šä¹‰åŒ…å«ï¼šclass="tb-module tshop-um tshop-um-header_scroll"ï¼ˆclasså±æ€§å¯ä»¥æ·»åŠ æ‚¨éœ€è¦çš„ç±»é€‰æ‹©å™¨å®šä¹‰ï¼‰
+ 3.å…ƒç´ classå±æ€§å€¼ç¦æ­¢ä»¥"tb-"å’Œ"J_T"å­—ç¬¦å¼€å¤´,é™¤[tb-module, J_TWidget, J_CartPluginTrigger, J_TokenSign]ä»¥å¤–
+ 4.ç¦æ­¢ä½¿ç”¨<style>
+æ ‡ç­¾ï¼ˆå…ƒç´ ï¼‰
+ 5.ç¦æ­¢ä½¿ç”¨
+<script>æ ‡ç­¾ï¼ˆå…ƒç´ ï¼‰
+ 6.ç¦æ­¢ä½¿ç”¨<link>æ ‡ç­¾ï¼ˆå…ƒç´ ï¼‰
+ 7.ç¦æ­¢ä½¿ç”¨æ ‡ç­¾ï¼ˆå…ƒç´ ï¼‰çš„idå±æ€§
+ 8.å…è®¸ä½¿ç”¨å…ƒç´ å†…è”styleå±æ€§
+ */
+?>
+<?php
+//å…¨å±€æ•°æ®
+//èƒŒæ™¯è®¾ç½®
+$bgcolor=$_MODULE['cs-bgcolor'];
+$boxHeight=$_MODULE['img_height']?$_MODULE['img_height']:380;
+$allshop = $_MODULE['cetagorylist'];//è·å¾—ç±»ç›®
+$itemNum=0; //è¯»å–ç”¨æˆ·æä¾›çš„å®è´æ•°é‡
+$itemList=array();  //å®è´æ•°æ®
+$imgList=array();   //å›¾ç‰‡æ•°æ®
+$provide_imgList=array(
+'assets/images/slide/slide5_03.jpg',
+'assets/images/slide/slide5_03.jpg',
+'assets/images/slide/slide5_03.jpg',
+'assets/images/slide/slide5_06.jpg',
+'assets/images/slide/slide5_06.jpg',
+'assets/images/slide/slide5_06.jpg',
+'assets/images/slide/slide5_06.jpg',
+'assets/images/slide/slide5_06.jpg',
+'assets/images/slide/slide5_06.jpg'
+);
+//ä»ç”¨æˆ·é‚£ä¸ªè·å–æ•°æ®
+$itemString=$_MODULE['cs1-item'];
+$idList=explode(',',$itemString);
+//å¦‚æœç”¨æˆ·æ²¡æœ‰é€‰æ‹©å®è´,è®¡ç®—æ•°ç»„æ•°é‡è¿˜æ˜¯ä¸º1,æ‰€ä»¥è¦å¤„ç†ä¸‹æ•°æ®
+$idList=clearnull($idList);
+
+if(count($idList)==0){
+	//å®è´é€‰æ‹©å™¨æ²¡æœ‰æ•°æ®
+	$itemList=getItems(9,$shopCategoryManager,$itemManager);//è·å¾—å®è´å¯¹è±¡åˆ—è¡¨
+	//ä»ç³»ç»Ÿè·å–çš„æ•°æ®,ä¸€å®šè¦åˆ¤æ–­ä¸ªæ•°
+	$itemNum=count($itemList);
+}else{
+	//å®è´é€‰æ‹©å™¨æœ‰æ•°æ®
+	$itemList=$itemManager->queryByIds($idList,"hotsell");  
+	$itemNum=count($idList);
+}
+//print_r($itemList);
+//è·å–å›¾ç‰‡
+$bimg=$_MODULE['cs1-bimg'];  //è·å–å¤§å›¾ç‰‡
+$bimgArr=explode(',',$bimg);
+$bimgArr=clearnull($bimgArr);
+if(count($bimgArr)==0){
+$imgList=$provide_imgList;
+}else{
+$imgList=$bimgArr;
+}
+//function
+function clearnull($items){
+	foreach($items as $item){
+		if($item){
+		$newItems[]=$item;
+		}else{
+		continue;
+		};
+	}
+	return $newItems;
+}
+function getItems($itemNum,$shopCategoryManager,$itemManager){
+	$catArr=array();//åˆ†ç±»æ•°ç»„
+	$allShopCategory=$shopCategoryManager->queryAll();
+	
+	foreach($allShopCategory as $shopCategory){
+		//echo $shopCategory->id."\n";
+		$catArr[]=$shopCategory->id;      //ç±»ç›®ID
+	}
+	//$sonShopCategory = $shopCategoryManager->querySubCategories($catArr[1]);å­ç±»ç›®é€‰æ‹©
+	$itemArr=array();//äº§å“æ•°ç»„
+	foreach($catArr as $catId){
+		$itemList=$itemManager->queryByCategory($catId,"hotsell",$itemNum);//æŸ¥è¯¢å®è´åˆ—è¡¨
+		foreach($itemList as $item){
+		//echo $catId;
+			//åˆ¤æ–­è·å–çš„äº§å“æ˜¯å¦ä¸ºç©º
+			if($item->exist){
+				array_push($itemArr,$item);
+				if(count($itemArr) > ($itemNum-1)) 
+					break;
+			}
+		}
+			if(count($itemArr) > ($itemNum-1)) break;
+		}
+		//echo var_dump($itemArr);
+		//echo count($itemArr);
+		return $itemArr;    
+	}
+// å…¨æ–°å›¾ç‰‡åœ°å€
+$num = 5;//å›¾ç‰‡åœ°å€å’Œè·³è½¬åœ°å€ä¸€å…±ä¸º10
+?>
+
+<div class="tb-module tshop-um tshop-um-header_scroll" <?php echo $_MODULE_TOOLBAR?>
+	>
+	<div  class="mall-slide J_TWidget dd" data-widget-type="Carousel" 
+data-widget-config="{'navCls':'ks-switchable-nav','contentCls':'ks-switchable-content','effect': '<?php echo $_MODULE['effect']; ?>
+		',
+'easing': 'easeOutStrong', 'steps':1, 'circular': false, 
 'prevBtnCls': 'mall-prev', 'nextBtnCls': 'mall-next', 'disableBtnCls': 'disable' }">
-    <a title="ÉÏÒ»Ò³"  class="mall-prev"></a>
-    <a title="ÏÂÒ»Ò³"  class="mall-next"></a>
-    <div  class="mall-content clearfix" style="height:<?php echo $boxHeight.'px';?>" >
-    <ul class="ks-switchable-content">
-<?php
-	for($i = 1;$i<=$num;$i++){
+		<a title="ä¸Šä¸€é¡µ"  class="mall-prev"></a>
+		<a title="ä¸‹ä¸€é¡µ"  class="mall-next"></a>
+		<div  class="mall-content clearfix" style="height:<?php echo $boxHeight.'px';?>
+			" >
+			<ul class="ks-switchable-content">
+				<?php
+	for($i = 1;$i<=$num;$i++){
 ?>
-        <li class="big-piclist">
-			<a href="<? echo $_MODULE["img".$i."_href"];?>" target="_blank"><img  src = "<? echo $_MODULE["img".$i];?>" alt=""></a>
-        </li>
-<?php 
-	}
-?>		
-    </ul>
-    <ul class="ks-switchable-nav">
-<?php
-	for($i = 1;$i<=$num;$i++){
-	if($i == 1){
-		$classon = "ks-active";
-	}else{
-		$classon = "";
-	}
-?>     
-        <li class="<? echo $classon;?>">
-             <? echo $_MODULE["img".$i."_text"];?>
-        </li>
-<?php 
-	}
-?>		
-    </ul>
-    </div>
-</div>
-
-
+				<li class="big-piclist">
+					<a href="<? echo $_MODULE["img".$i."_href"];?>
+						" target="_blank">
+						<img  src = "<? echo $_MODULE["img".$i];?>" alt=""></a>
+				</li>
+				<?php 
+	}
+?></ul>
+			<ul class="ks-switchable-nav">
+				<?php
+	for($i = 1;$i<=$num;$i++){
+	if($i == 1){
+		$classon = "ks-active";
+	}else{
+		$classon = "";
+	}
+?>
+				<li class="<? echo $classon;?>
+					">
+					<? echo $_MODULE["img".$i."_text"];?></li>
+				<?php 
+	}
+?></ul>
+		</div>
+	</div>
 
 </div>

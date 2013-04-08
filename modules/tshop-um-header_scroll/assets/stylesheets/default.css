@@ -1,18 +1,18 @@
-/**
- * Ä£¿é£ºtshop-um-header_scroll 
- * Æ¤·ô£¨Ö÷Ìâ£©: Ä¬ÈÏ
- * ¹æÔò:
- * 		1. CSSÑ¡ÔñÆ÷±ØĞë°üº¬ ".tshop-um-header_scroll"£¬½ûÖ¹Ê¹ÓÃÄ£¿éÒ³ÃæÔªËØµÄIDÑ¡ÔñÆ÷
- *		2. CSSÑùÊ½ÉùÃ÷µÄpositionÊôĞÔÖµ²»ÄÜÊ¹ÓÃ:fixed
- *		3. CSSÑùÊ½ÎÄ¼şÖĞz-indexÊôĞÔÖµ±ØĞëÔÚ1-99Ö®¼ä
- *		4. CSS URLµØÖ·±ØĞëÊÇÌÔ±¦URL°×Ãûµ¥ÖĞ»òÕß±¾µØ£¨Ïà¶Ô»ò¾ø¶Ô£©URL 
- */
-
-.tshop-um-header_scroll { border:1px solid red;}
-.tshop-um-header_scroll .mall-content{ position:relative; overflow:hidden;}
-.tshop-um-header_scroll .mall-content img{ width:950px; height:100%;}
-.tshop-um-header_scroll .ks-switchable-nav{ position:absolute; bottom:0px;width:100%;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;filter:alpha(opacity=80); padding-right:2px; z-index:10;   }
-.tshop-um-header_scroll  .ks-switchable-nav li{ float:left; width:20%; display:inline;zoom:1; color:#fff;line-height:35px; height:35px; border-left:1px solid #000; margin-left:-1px; text-indent:10px; overflow:hidden; cursor:pointer;}
-.tshop-um-header_scroll  .ks-switchable-nav li.ks-active{ background:#000;}
-/*ÏŞÖÆÔÚ750ÖĞÏÔÊ¾*/
-.grid-s5m0 .col-main .tshop-um-header_scroll .mall-content img, .grid-m0s5 .col-main .tshop-um-header_scroll .mall-content img{ width:750px;}
+/**
+ * æ¨¡å—ï¼štshop-um-header_scroll 
+ * çš®è‚¤ï¼ˆä¸»é¢˜ï¼‰: é»˜è®¤
+ * è§„åˆ™:
+ * 		1. CSSé€‰æ‹©å™¨å¿…é¡»åŒ…å« ".tshop-um-header_scroll"ï¼Œç¦æ­¢ä½¿ç”¨æ¨¡å—é¡µé¢å…ƒç´ çš„IDé€‰æ‹©å™¨
+ *		2. CSSæ ·å¼å£°æ˜çš„positionå±æ€§å€¼ä¸èƒ½ä½¿ç”¨:fixed
+ *		3. CSSæ ·å¼æ–‡ä»¶ä¸­z-indexå±æ€§å€¼å¿…é¡»åœ¨1-99ä¹‹é—´
+ *		4. CSS URLåœ°å€å¿…é¡»æ˜¯æ·˜å®URLç™½åå•ä¸­æˆ–è€…æœ¬åœ°ï¼ˆç›¸å¯¹æˆ–ç»å¯¹ï¼‰URL 
+ */
+
+.tshop-um-header_scroll { border:1px solid red;}
+.tshop-um-header_scroll .mall-content{ position:relative; overflow:hidden;}
+.tshop-um-header_scroll .mall-content img{ width:950px; height:100%;}
+.tshop-um-header_scroll .ks-switchable-nav{ position:absolute; bottom:0px;width:100%;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;filter:alpha(opacity=80); padding-right:2px; z-index:10;   }
+.tshop-um-header_scroll  .ks-switchable-nav li{ float:left; width:20%; display:inline;zoom:1; color:#fff;line-height:35px; height:35px; border-left:1px solid #000; margin-left:-1px; text-indent:10px; overflow:hidden; cursor:pointer;}
+.tshop-um-header_scroll  .ks-switchable-nav li.ks-active{ background:#000;}
+/*é™åˆ¶åœ¨750ä¸­æ˜¾ç¤º*/
+.grid-s5m0 .col-main .tshop-um-header_scroll .mall-content img, .grid-m0s5 .col-main .tshop-um-header_scroll .mall-content img{ width:750px;}

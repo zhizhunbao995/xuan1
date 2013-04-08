@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="GBK"?>
 <module>
     <id>tshop-um-wangwang</id>
-    <name>阿里旺旺</name>
+    <name>瀹㈡湇鏃烘椇</name>
     <file>tshop-um-wangwang.php</file>
     <thumbnail>../../assets/images/wangwang.png</thumbnail>
-    <description>自定义旺旺背景图！</description>
+    <description></description>
     <requiredCache>true</requiredCache>
-    <supportedWidth>750,950</supportedWidth>
+    <supportedWidth>550,750,950</supportedWidth>
     <themes default="默认">
         <theme name="默认">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
+    <parameters>
+        <group title="第一组客服">
+            <section title="图片高度设置" folded="false">
+                <param description="客服昵称" formType="text" label="昵称" name="w_name" ptype="text">1|2</param>
+                <param description="客服旺旺帐号" formType="text" label="旺旺号" name="w_id" ptype="text">宣辕剑|蓝猫5566</param>
+            </section>
+        </group>
+    </parameters>
 </module>
