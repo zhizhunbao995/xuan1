@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="GBK"?>
 <module>
     <id>tshop-um-wangwang</id>
-    <name>瀹㈡湇鏃烘椇</name>
+    <name>客服旺旺模块</name>
     <file>tshop-um-wangwang.php</file>
     <thumbnail>../../assets/images/wangwang.png</thumbnail>
     <description></description>
@@ -13,10 +13,18 @@
         </theme>
     </themes>
     <parameters>
-        <group title="第一组客服">
-            <section title="图片高度设置" folded="false">
-                <param description="客服昵称" formType="text" label="昵称" name="w_name" ptype="text">1|2</param>
-                <param description="客服旺旺帐号" formType="text" label="旺旺号" name="w_id" ptype="text">宣辕剑|蓝猫5566</param>
+        <group title="客服组">
+            <section title="第一组客服" folded="false">
+                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name1" ptype="text">123|Apple|LiYa</param>
+                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id1" ptype="text">宣辕剑|蓝猫5566|feifei</param>
+            </section>
+             <section title="第二组客服" folded="false">
+                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name2" ptype="text">呜呜|Apple|LiYa</param>
+                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id2" ptype="text">宣辕剑|蓝猫5566|feifei</param>
+            </section>
+            <section title="第三组客服" folded="false">
+                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name3" ptype="text">呜呜|Apple|LiYa</param>
+                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id3" ptype="text">宣辕剑|蓝猫5566|feifei</param>
             </section>
         </group>
     </parameters>

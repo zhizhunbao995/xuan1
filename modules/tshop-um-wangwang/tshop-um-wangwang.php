@@ -29,28 +29,38 @@
 /**
  * 开始设计PHP页面
  */
-$namelist=$_MODULE['w_name'];
-$idlist=$_MODULE['w_id'];
-$name=explode('|',$namelist);
-$id=explode('|',$idlist);
-function getWang(){
 
+$newarray = array();
+$temp = array();
+for ($i=1; $i < 2; $i++) { 
+	$namelist=$_MODULE['w_name1'];
+	$idlist=$_MODULE['w_id1'];
+	$name=explode('|',$namelist);
+	$id=explode('|',$idlist);
+	array_push($temp,$name,$id);
+	array_push($newarray,$temp);
+	$temp = array();
 }
+echo var_dump($newarray);
 
 ?>
 	<div class="w_list">
 		<div class="w_cont">
 	<?php 
-		for($c=0;$c<2;$c++){
+		for($c=0;$c<count($newarray);$c++){
 			
 ?>		<div class="w_box">
-		<div class="w_sever">客服中心</div>
+		<div class="w_sever"></div>
 		<?php 
-		for($i=0;$i<count($name);$i++){
+		for($i=0;$i<count($newarray[$c]);$i++){
 			
 	?>	
-			<div class="w_item"><span><? echo $name[$i]; ?></span><? echo $uriManager->supportTag($id[$i],222,2); ?></div>
-		
+			<div class="w_item img<? echo $j+1; ?>"><a class="w_name" href="javascript:;">
+				<span>
+				<? echo $newarray[$c][$i][$j]; ?></span></a>
+
+				<? echo $uriManager->supportTag($newarray[$c][$i][$j],222,2); ?>
+			</div>
 		<?php 
 	}
 	?>
