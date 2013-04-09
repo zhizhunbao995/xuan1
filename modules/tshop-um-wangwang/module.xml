@@ -15,16 +15,19 @@
     <parameters>
         <group title="客服组">
             <section title="第一组客服" folded="false">
-                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name1" ptype="text">123|Apple|LiYa</param>
+                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name1" ptype="text">Vicesy|Apple|LiYa</param>
                 <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id1" ptype="text">宣辕剑|蓝猫5566|feifei</param>
+                <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img1" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
              <section title="第二组客服" folded="false">
                 <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name2" ptype="text">呜呜|Apple|LiYa</param>
                 <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id2" ptype="text">宣辕剑|蓝猫5566|feifei</param>
+                <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img2" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
             <section title="第三组客服" folded="false">
-                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name3" ptype="text">呜呜|Apple|LiYa</param>
+                <param description="多个昵称用 | 间隔" formType="text" label="昵称" name="w_name3" ptype="text">窝窝|Apple|LiYa</param>
                 <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id3" ptype="text">宣辕剑|蓝猫5566|feifei</param>
+                 <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img3" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
         </group>
     </parameters>

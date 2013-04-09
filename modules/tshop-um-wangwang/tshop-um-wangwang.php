@@ -29,20 +29,21 @@
 /**
  * 开始设计PHP页面
  */
-
+/* 循环数组*/
 $newarray = array();
+/* 临时数组*/
 $temp = array();
-for ($i=1; $i < 2; $i++) { 
-	$namelist=$_MODULE['w_name1'];
-	$idlist=$_MODULE['w_id1'];
+for ($i=1; $i < 4; $i++) { 
+	$namelist=$_MODULE['w_name'.$i];
+	$idlist=$_MODULE['w_id'.$i];
+	$imglist=$_MODULE['w_img'.$i];
 	$name=explode('|',$namelist);
 	$id=explode('|',$idlist);
-	array_push($temp,$name,$id);
+	$img=explode('|',$imglist);
+	array_push($temp,$name,$id,$img);
 	array_push($newarray,$temp);
 	$temp = array();
 }
-echo var_dump($newarray);
-
 ?>
 	<div class="w_list">
 		<div class="w_cont">
@@ -52,14 +53,14 @@ echo var_dump($newarray);
 ?>		<div class="w_box">
 		<div class="w_sever"></div>
 		<?php 
-		for($i=0;$i<count($newarray[$c]);$i++){
+			for($j=0;$j<count($newarray[$c][0]);$j++){
 			
 	?>	
-			<div class="w_item img<? echo $j+1; ?>"><a class="w_name" href="javascript:;">
-				<span>
-				<? echo $newarray[$c][$i][$j]; ?></span></a>
-
-				<? echo $uriManager->supportTag($newarray[$c][$i][$j],222,2); ?>
+			<div class="w_item">
+				<img src="<? echo $newarray[$c][2][$j]; ?>" class="w_img">
+				<a class="w_name" href="javascript:;">
+				<span><? echo $newarray[$c][0][$j]; ?></span></a>
+				<? echo $uriManager->supportTag($newarray[$c][1][$j],"客服",2); ?>
 			</div>
 		<?php 
 	}
