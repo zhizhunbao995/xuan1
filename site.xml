@@ -2,7 +2,7 @@
 <site>
     <id>48509820d76644a48b5593a370cf550d</id>
     <name>Xuan高级服装模版</name>
-    <author wangwang="[提示：请添加模板作者的旺旺]" url="http://www.yourwebsite.com" name="[提示：请添加模板作者名称]"></author>
+    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
     <thumbnail>assets/images/default-thumbnail.png</thumbnail>
     <language>PHP</language>
     <version>1.0.0</version>

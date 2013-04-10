@@ -33,13 +33,24 @@
 $newarray = array();
 /* 临时数组*/
 $temp = array();
-for ($i=1; $i < 4; $i++) { 
+/* 几组内容 */
+$items = array();
+for ($n=1; $n < 4; $n++) { 	
+	if($_MODULE['s_'.$n] == "show"){
+		global $items;
+		array_push($items,$_MODULE['s_'.$n]);
+	}
+}
+for ($i=1; $i < count($items)+1; $i++) { 
 	$namelist=$_MODULE['w_name'.$i];
 	$idlist=$_MODULE['w_id'.$i];
 	$imglist=$_MODULE['w_img'.$i];
 	$name=explode('|',$namelist);
 	$id=explode('|',$idlist);
 	$img=explode('|',$imglist);
+	array_splice($name, 3);
+	array_splice($id, 3);
+	array_splice($img, 3);
 	array_push($temp,$name,$id,$img);
 	array_push($newarray,$temp);
 	$temp = array();
@@ -53,7 +64,7 @@ for ($i=1; $i < 4; $i++) {
 ?>		<div class="w_box">
 		<div class="w_sever"></div>
 		<?php 
-			for($j=0;$j<count($newarray[$c][0]);$j++){
+			for($j=0;$j<count($newarray[$c][0]);$j++){//看是否第一个 name的个数的循环
 			
 	?>	
 			<div class="w_item">
