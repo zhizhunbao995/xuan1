@@ -15,23 +15,27 @@
 //从用户那个获取数据
 $itemString=$_MODULE['t-item'];
 $idList=explode(',',$itemString);
-$tt = "";
+$height = $_MODULE['img_height'];
+$name = array($_MODULE['t-name0'],$_MODULE['t-name1'],$_MODULE['t-name2']);
+$imgheight = $height>=600? 600 : $height<=310?310: $height;
+//默认好看图片
+$example = array("http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg","http://img03.taobaocdn.com/imgextra/i3/46353909/T2kGHKXdRaXXXXXXXX_!!46353909.jpg","http://img04.taobaocdn.com/imgextra/i4/46353909/T2205sXetcXXXXXXXX_!!46353909.jpg");
+$imgbg = false;
 
-echo count($idList);
 //如果用户没有选择宝贝,计算数组数量还是为1,所以要处理下数据
 $idList=clearnull($idList);
-
 if(count($idList)==0){
 	//宝贝选择器没有数据
-	$itemList=getItems(3,$shopCategoryManager,$itemManager);//获得宝贝对象列表
+	//$itemList=getItems(3,$shopCategoryManager,$itemManager);//获得宝贝对象列表
 	//从系统获取的数据,一定要判断个数
-	$itemNum=count($itemList);
+	$itemNum = 3;
+	$imgbg = true;
 }else{
 	//宝贝选择器有数据
 	$itemList=$itemManager->queryByIds($idList,"hotsell");  
 	$itemNum=count($idList);
 }
-$itemNum = $itemNum>5?5:$itemNum;
+$itemNum = $itemNum>3?3:$itemNum;
 //function
 function clearnull($items){
 	foreach($items as $item){
@@ -74,16 +78,17 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 	<div class="xuan-imglist">
 		<ul>
 <?php 
+if(!$imgbg){
 	for($i=0;$i<$itemNum;$i++){
 		$item=$itemList[$i];
 ?>
 			<li>
-				<div class="img-box">
-					<a href="<?php echo $uriManager->detailURI($item)?>"><img src="<?php echo $item->getPicUrl(310);?>" class="img_size"/></a>
+				<div class="img-box" style="height:<?php echo $imgheight.'px';?>;background:url(<?php if($imgbg) {echo $example[$i]};?>) no-repeat;">
+					<a href="<?php echo $uriManager->detailURI($item)?>"><img src="<?php echo $item->getPicUrl(310);?>" class="img_size" /></a>
 				</div>
 				<div class="img_info">
 					<div class="info_self_custom">
-						新款
+						<?php echo $name[$i];?>
 					</div>
 					<div class="float_l count_hot" >
 						<div class="info_title"><?=$item->title;?></div>
@@ -95,6 +100,30 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 				</div>
 			</li>
 <?php 
+}
+}else{//进入示例图
+		for($i=0;$i<$itemNum;$i++){
+		$item=$itemList[$i];
+?>
+			<li>
+				<div class="img-box" style="height:<?php echo $imgheight.'px';?>;background:url(<?php if($imgbg) {echo $example[$i]};?>) no-repeat;">
+					<a href=""><img src="" class="img_size" /></a>
+				</div>
+				<div class="img_info">
+					<div class="info_self_custom">
+						New
+					</div>
+					<div class="float_l count_hot" >
+						<div class="info_title">请选择宝贝</div>
+						<div class="info_sales">已累计售出<strong>999</strong>笔</div>
+					</div>
+					<div class="position info_price">
+						<Span>￥</span><strong >68.00</strong>
+					</div>
+				</div>
+			</li>	
+<?php 
+	}
 }
 ?>			
 		</ul>
