@@ -16,7 +16,7 @@
 .tshop-um-950img-list-show .clear:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-950img-list-show .xuan-imglist{}
 .tshop-um-950img-list-show .xuan-imglist ul{ overflow:hidden; width:970px;}
-.tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:10px; position:relative;width: 300px; background:#FFF0EB; }
+.tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:13px; position:relative;width: 300px; background:#FFF0EB;display: inline; }
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info{ position:absolute; bottom:0px;height:50px; background:#FFF0EB; width:100%;  }
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price{ color:#D84E66; font-size:24px;  height:50px; padding-top:17px; padding-right:5px;
  right:0px; top:0px;}

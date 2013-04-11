@@ -107,7 +107,7 @@ if(!$imgbg){
 ?>
 			<li>
 				<div class="img-box" style="height:<?php echo $imgheight.'px';?>;background:url(<?php if($imgbg) {echo $example[$i]};?>) no-repeat;">
-					<a href=""><img src="" class="img_size" /></a>
+					<a href=""></a>
 				</div>
 				<div class="img_info">
 					<div class="info_self_custom">
