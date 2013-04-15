@@ -83,7 +83,7 @@ if(!$imgbg){
 		$item=$itemList[$i];
 ?>
 			<li>
-				<div class="img-box" style="height:<?php echo $imgheight.'px';?>;background:url(<?php if($imgbg) {echo $example[$i]};?>) no-repeat;">
+				<div class="img-box" style="height:<?php echo $imgheight.'px';?>;">
 					<a href="<?php echo $uriManager->detailURI($item)?>"><img src="<?php echo $item->getPicUrl(310);?>" class="img_size" /></a>
 				</div>
 				<div class="img_info">
@@ -95,7 +95,7 @@ if(!$imgbg){
 						<div class="info_sales">已累计售出<strong><?php echo $item->soldCount;?></strong>笔</div>
 					</div>
 					<div class="position info_price">
-						<Span>￥</span><strong ><?php echo number_format($item->discountPrice,0,'.','');?></strong>
+						<span>￥</span><strong ><?php echo number_format($item->discountPrice,0,'.','');?></strong>
 					</div>
 				</div>
 			</li>
@@ -118,7 +118,7 @@ if(!$imgbg){
 						<div class="info_sales">已累计售出<strong>999</strong>笔</div>
 					</div>
 					<div class="position info_price">
-						<Span>￥</span><strong >68.00</strong>
+						<span>￥</span><strong >68.00</strong>
 					</div>
 				</div>
 			</li>	

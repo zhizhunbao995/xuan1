@@ -3,9 +3,7 @@
   "layouts" : [ {
     "type" : "grid-m",
     "modules" : {
-      "main" : [ {
-        "moduleID" : "tshop-um-950img-list-show"
-      } ]
+      "main" : [ ]
     }
   } ]
 }

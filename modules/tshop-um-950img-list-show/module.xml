@@ -15,23 +15,12 @@
     <parameters>
         <group title="选择您想展示的宝贝">
             <section title="请选择三项宝贝" folded="false">
-                 <param description="设置展示宝贝图片高度，最高600,初始为310" formType="text" label="图片高度" name="img_height" ptype="text">335</param>
-                 <param description="宝贝图片最好是300*335(宽*高)" formType="itemForm" label="选择宝贝" name="t-item" ptype="item"></param>
-                 <param description="最好两字,例如：New" formType="text" label="宝贝签名1" name="t-name0" ptype="text">New</param>
-                 <param description="最好两字,例如：New" formType="text" label="宝贝签名2" name="t-name1" ptype="text">潮款</param>
-                 <param description="最好两字,例如：New" formType="text" label="宝贝签名3" name="t-name2" ptype="text">包邮</param>
+                <param description="设置展示宝贝图片高度，最高600,初始为310" formType="text" label="图片高度" name="img_height" ptype="text">335</param>
+                <param description="宝贝图片最好是300*335(宽*高)" formType="itemForm" label="选择宝贝" name="t-item" ptype="item">22,21,20</param>
+                <param description="最好两字,例如：New" formType="text" label="宝贝签名1" name="t-name0" ptype="text">New1</param>
+                <param description="最好两字,例如：New" formType="text" label="宝贝签名2" name="t-name1" ptype="text">潮款</param>
+                <param description="最好两字,例如：New" formType="text" label="宝贝签名3" name="t-name2" ptype="text">包邮</param>
             </section>
         </group>
-<!--         <group title="输入您想展示的宝贝">
-            <section title="第 1 个宝贝图片 " folded="false">
-                <param description="宝贝图地址" formType="text" label="宝贝图地址" name="url-item0" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg</param>
-            </section>
-            <section title="第 2 个宝贝图片 " folded="true">
-                <param description="宝贝图地址" formType="text" label="宝贝图地址" name="url-item1" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2kGHKXdRaXXXXXXXX_!!46353909.jpg</param>
-            </section>
-            <section title="第 3 个宝贝图片 " folded="true">
-                <param description="宝贝图地址" formType="text" label="宝贝图地址" name="url-item2" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2205sXetcXXXXXXXX_!!46353909.jpg</param>
-            </section>                        
-        </group> -->
     </parameters>
 </module>

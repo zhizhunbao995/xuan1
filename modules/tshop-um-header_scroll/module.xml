@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="GBK"?>
 <module>
     <id>tshop-um-header_scroll</id>
-    <name>规则六图切换</name>
+    <name>轮播切换旋转木马</name>
     <file>tshop-um-header_scroll.php</file>
     <thumbnail>../../assets/images/b.png</thumbnail>
     <description>规则六图切换 划过大图显示</description>
@@ -14,45 +14,45 @@
     </themes>
     <parameters>
         <group title="添加你的图片">
-            <section folded="false" title="图片高度设置">
-                <param ptype="text" name="img_height" label="图片显示高度" formType="text" description="请输入大小为600以内,默认为560"></param>
-                <param ptype="text" name="effect" label="动画设置" formType="range" description="请选择动画类型">
-					<option selected="selected" value="fade">渐影渐显</option>
-                   <option value="scrollx">左右滚动</option>
-                   <option  value="none">无切换效果</option>
+            <section title="图片高度设置" folded="false">
+                <param description="请输入大小为600以内,默认为560" formType="text" label="图片显示高度" name="img_height" ptype="text">260</param>
+                <param description="请选择动画类型" formType="range" label="动画设置" name="effect" ptype="text">
+					<option value="fade" >渐影渐显</option>
+                   <option value="scrollx" selected="selected">左右滚动</option>
+                   <option value="none">无切换效果</option>
 				</param>
             </section>
-            <section folded="false" title="图片一">
-                <param ptype="url" name="img1" label="图片1地址" formType="text" description="请输入大小为950的图片">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img1_href" label="图片1跳转地址" formType="text" description="请输入跳转地址">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img1_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片一" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片1地址" name="img1" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片1跳转地址" name="img1_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img1_text" ptype="url">热门衣物登场</param>
             </section>
-            <section folded="false" title="图片二">
-                <param ptype="url" name="img2" label="图片2地址" formType="text" description="请输入大小为950的图片">http://img04.taobaocdn.com/imgextra/i4/46353909/T2iuDaXmxaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img2_href" label="图片2跳转地址" formType="text" description="请输入跳转地址">http://img04.taobaocdn.com/imgextra/i4/46353909/T2iuDaXmxaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img2_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片二" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片2地址" name="img2" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2iuDaXmxaXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片2跳转地址" name="img2_href" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2iuDaXmxaXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img2_text" ptype="url">热门衣物登场</param>
             </section>
-            <section folded="false" title="图片三">
-                <param ptype="url" name="img3" label="图片3地址" formType="text" description="请输入大小为950的图片">http://img01.taobaocdn.com/imgextra/i1/46353909/T24iniXiRXXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img3_href" label="图片3跳转地址" formType="text" description="请输入跳转地址">http://img01.taobaocdn.com/imgextra/i1/46353909/T24iniXiRXXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img3_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片三" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片3地址" name="img3" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T24iniXiRXXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片3跳转地址" name="img3_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T24iniXiRXXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img3_text" ptype="url">热门衣物登场</param>
             </section>
-            <section folded="false" title="图片四">
-                <param ptype="url" name="img4" label="图片4地址" formType="text" description="请输入大小为950的图片">http://img03.taobaocdn.com/imgextra/i3/46353909/T2J.YhXjtaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img4_href" label="图片4跳转地址" formType="text" description="请输入跳转地址">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img4_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片四" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片4地址" name="img4" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2J.YhXjtaXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片4跳转地址" name="img4_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img4_text" ptype="url">热门衣物登场</param>
             </section>
-            <section folded="false" title="图片五">
-                <param ptype="url" name="img5" label="图片5地址" formType="text" description="请输入大小为950的图片">http://img04.taobaocdn.com/imgextra/i4/46353909/T2Y6pCXoFNXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img5_href" label="图片5跳转地址" formType="text" description="请输入跳转地址">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img5_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片五" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片5地址" name="img5" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2Y6pCXoFNXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片5跳转地址" name="img5_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img5_text" ptype="url">热门衣物登场</param>
             </section>
         </group>
         <group title="动画设置">
-            <section folded="false" title="图片一">
-                <param ptype="url" name="img1" label="图片1地址" formType="text" description="请输入大小为950的图片">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img1_href" label="图片1跳转地址" formType="text" description="请输入跳转地址">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
-                <param ptype="url" name="img1_text" label="图片描述" formType="text" description="比如：热门衣物登场">热门衣物登场</param>
+            <section title="图片一" folded="false">
+                <param description="请输入大小为950的图片" formType="text" label="图片1地址" name="img1" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="请输入跳转地址" formType="text" label="图片1跳转地址" name="img1_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2r8_hXetaXXXXXXXX_!!46353909.png</param>
+                <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img1_text" ptype="url">热门衣物登场</param>
             </section>
         </group>
     </parameters>
