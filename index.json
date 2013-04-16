@@ -7,5 +7,26 @@
         "moduleID" : "tshop-um-full-screen"
       } ]
     }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-wangwang"
+      } ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-950img-list-show"
+      } ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ {
+        "moduleID" : "tshop-um-ad"
+      } ]
+    }
   } ]
 }
