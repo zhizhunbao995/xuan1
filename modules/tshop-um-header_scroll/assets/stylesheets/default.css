@@ -18,7 +18,7 @@
 
 
 
-.tshop-um-header_scroll { border:1px solid red;}
+.tshop-um-header_scroll { margin-bottom:10px; border: 1px solid #EE8EA0;}
 
 .tshop-um-header_scroll .mall-content{ position:relative; overflow:hidden;}
 
