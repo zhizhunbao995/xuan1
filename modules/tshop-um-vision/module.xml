@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-vision</id>
+    <name>视差广告栏</name>
+    <file>tshop-um-vision.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>视觉差滚动广告！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>
