@@ -8,6 +8,14 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-vision {}
+.tshop-um-vision { margin-bottom: 10px; position: relative;}
+.tshop-um-vision .img{
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;height: 400px; border:1px solid #EE8EA0;}
+/*.tshop-um-vision .top-shadow{ background: url(assets/images/top.png) repeat-x; height: 21px; position: absolute; left: 0px; top: 0px;width: 100%;}
+.tshop-um-vision .bottom-shadow{ background: url(assets/images/bottom.png) repeat-x; height: 21px; position: absolute; left: 0px; bottom: 0px;width: 100%;}
+.tshop-um-vision .left-shadow{ background: url(assets/images/left.png) repeat-y; height: 100%; position: absolute; left: 0px; top: 0px;width: 12px;}
+.tshop-um-vision .right-shadow{ background: url(assets/images/right.png) repeat-y; height: 100%; position: absolute; right: 0px; top: 0px;width: 12px;}*/
 
  

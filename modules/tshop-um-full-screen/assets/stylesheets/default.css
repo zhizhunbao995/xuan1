@@ -7,3 +7,20 @@
  *		3. CSS样式文件中z-index属性值必须在1-99之间
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
+
+.tshop-um-full-screen { margin-bottom: 10px;}
+.tshop-um-full-screen .mall-content{ position:relative; text-align: center; }
+.tshop-um-full-screen .mall-content li.big-piclist{width: 2400px;background: #fbdade;}
+.tshop-um-full-screen .hidden{display: none;}
+
+.tshop-um-full-screen .mall-content img{  height:100%;}
+
+.tshop-um-full-screen .ks-switchable-nav{ position:absolute; bottom:0px;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;filter:alpha(opacity=80); padding-right:2px; z-index:10;   }
+
+.tshop-um-full-screen  .ks-switchable-nav li{  float:left; width:20%; display:inline;zoom:1; color:#fff;line-height:35px; height:35px; border-left:1px solid #000; margin-left:-1px; text-indent:10px; overflow:hidden; cursor:pointer;}
+
+.tshop-um-full-screen  .ks-switchable-nav li.ks-active{ background:#000;}
+.tshop-um-full-screen .full{position: absolute;z-index: 5;left: 50%;top: 0;margin-left: -1200px;width: 2400px;height: 560px;overflow: hidden;}
+.tshop-um-full-screen .mall-prev{cursor: pointer; background:url("http://img02.taobaocdn.com/imgextra/i2/46353909/T2C7YMXe4XXXXXXXXX_!!46353909.png") no-repeat; z-index:10;width: 28px; height: 48px; position: absolute;left: -10px; top: 50%; margin-left: -20px;}
+.tshop-um-full-screen .mall-next{cursor: pointer; background:url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2ZvPMXhVXXXXXXXXX_!!46353909.png") no-repeat; z-index:10;width: 28px; height: 48px; position: absolute;right: -10px; top: 50%; margin-left: -20px;}
+

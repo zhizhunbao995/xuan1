@@ -4,13 +4,15 @@
     "type" : "grid-m0",
     "modules" : {
       "main" : [ {
-        "moduleID" : "tshop-um-close-light"
+        "moduleID" : "tshop-um-full-screen"
       } ]
     }
   }, {
     "type" : "grid-m0",
     "modules" : {
       "main" : [ {
+        "moduleID" : "tshop-um-vision"
+      }, {
         "moduleID" : "tshop-um-950img-list-show"
       } ]
     }
