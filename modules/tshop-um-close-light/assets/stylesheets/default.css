@@ -1,0 +1,26 @@
+/**
+ * 模块：tshop-um-close-light 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-close-light"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-close-light {padding: 10px 10px 5px 10px;margin-bottom:10px; border: 1px solid #EE8EA0; background: #fff;zoom:1; padding-right: 0px; }
+.tshop-um-close-light .close-top{width:930px;zoom:1;}
+.tshop-um-close-light .close-top:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-close-light .close-top div.l{ float: left;width: 180px; height: 180px; margin-right: 6px;margin-bottom: 5px;}
+.tshop-um-close-light .close-pop {zoom:1;width:930px; display: none;}
+.tshop-um-close-light .close-pop:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-close-light .close-pop .pop{display: block;float: left;width: 180px; height: 180px; margin-right: 6px;margin-bottom: 5px; overflow:hidden; position: relative;}
+.tshop-um-close-light .close-pop .pop span{ position: absolute;bottom: 0px;background:#000;_filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+opacity: 0.8;color: #fff; height: 40px;color: #fff; display: none; }
+.tshop-um-close-light .close-pop .pop i{background:#000;_filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);opacity: 0.6;width: 180px; height: 180px; position: absolute;top: 0px;left: 0px;}
+.tshop-um-close-light .close-pop .pop:hover span{display: block;}
+.tshop-um-close-light .close-pop .pop:hover i{display: none;}
+.tshop-um-close-light .close-pop .pop b{ font-weight: normal;}
+.tshop-um-close-light .close-pop .pop .price{float: left; background: #D84E66; height: 40px; width: 60px; line-height: 40px; text-align: center;overflow: hidden;}
+.tshop-um-close-light .close-pop .pop .count{  width: 110px; height: 20px;overflow:hidden; color: #F98166; float: left; text-align: right;padding-left: 5px;padding-right: 2px;}
+.tshop-um-close-light .close-pop .pop .name{ width: 110px; height: 20px;overflow:hidden;color: #Fff; float: left;padding-left: 5px;text-align: right;padding-right: 2px;}
