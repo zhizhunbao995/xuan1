@@ -3,12 +3,12 @@
     <id>tshop-um-vision</id>
     <name>视差广告栏</name>
     <file>tshop-um-vision.php</file>
-    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <thumbnail>../../assets/images/viewbanner.png</thumbnail>
     <description>视觉差滚动广告！</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
@@ -16,7 +16,7 @@
         <group title="填写广告图及跳转地址">
             <section title="内容区" folded="false">
                 <param description="高度限制在500以内" formType="text" label="填写展示高度" name="imgheight" ptype="text">200</param>
-                <param description="填写图片地址,图片高度要大于整个区域高度" formType="text" label="填写图片地址" name="imgsrc" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2l9znXnBaXXXXXXXX_!!46353909.png</param>
+                <param description="填写图片地址,图片高度要大于整个区域高度2倍多才有效果！" formType="text" label="填写图片地址" name="imgsrc" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2l9znXnBaXXXXXXXX_!!46353909.png</param>
                 <param description="填写广告跳转地址" formType="text" label="填写广告跳转地址" name="asrc" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2l9znXnBaXXXXXXXX_!!46353909.png</param>
             </section>
         </group>

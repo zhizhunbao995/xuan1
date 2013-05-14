@@ -7,20 +7,16 @@
     <description>展示你宝贝的分类信息，可以作为分类导航使用！</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>750,950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
     <parameters>
         <group title="推荐宝贝">
             <section title="宝贝输入项" folded="false">
-<!--                 <param description="宝贝图片最好是300*335(宽*高)" formType="categoryForm" label="选择宝贝" name="t-item" ptype="category">[ {&#xd;
-  "childIds" : "",&#xd;
-  "rid" : "657330165"&#xd;
-} ]</param> -->
-             <param description="输入一个宝贝图片" formType="text" label="选择宝贝" name="class-img" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2uGHPXn8XXXXXXXXX_!!46353909.png</param>
-             <param description="输入一个宝贝地址!尺寸：260*160(宽*高)" formType="text" label="选择宝贝" name="class-url" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2uGHPXn8XXXXXXXXX_!!46353909.png</param>
+                <param description="输入一个宝贝图片" formType="text" label="选择宝贝" name="class-img" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2uGHPXn8XXXXXXXXX_!!46353909.png</param>
+                <param description="输入一个宝贝地址!尺寸：260*160(宽*高)" formType="text" label="选择宝贝" name="class-url" ptype="url">http://img04.taobaocdn.com/imgextra/i4/46353909/T2uGHPXn8XXXXXXXXX_!!46353909.png</param>
             </section>
         </group>
     </parameters>

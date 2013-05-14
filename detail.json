@@ -4,7 +4,7 @@
     "type" : "grid-s5m0",
     "modules" : {
       "sub" : [ {
-        "moduleID" : "tshop-pbsm-other-taoke-recharge"
+        "moduleID" : "tshop-pbsm-other-liangzi"
       } ],
       "main" : [ {
         "moduleID" : "tshop-um-wangwang"

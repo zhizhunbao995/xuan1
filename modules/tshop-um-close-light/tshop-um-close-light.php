@@ -36,22 +36,26 @@ function clearnull($items){
  */
 $changes = $_MODULE['changes'];
 $list = $_MODULE["item-s"];
+$typeSale = $_MODULE["types"];
 $idList=explode(',',$list);
 $idList=clearnull($idList);
-if($changes=="auto"){
+if($changes=="auto"){//自动选择
 
 	//宝贝选择器没有数据
 
-	$itemList=getItems(8,$shopCategoryManager,$itemManager);//获得宝贝对象列表
+	$itemList=getItems(9,$shopCategoryManager,$itemManager);//获得宝贝对象列表
 	//从系统获取的数据,一定要判断个数
 
-}else{
+}else{//手动选择
 
 	//宝贝选择器有数据
-
-	$itemList=$itemManager->queryByIds($idList,"hotsell");  
+	if (count($idList)>0) {
+		$itemList=$itemManager->queryByIds($idList,$typeSale); 
+	}
+	 
 }
 function getItems($itemNum,$shopCategoryManager,$itemManager){
+	$typeSale = $GLOBALS["typeSale"];
 	$catArr=array();//分类数组
 	$allManager= array();
 	$allShopCategory=$shopCategoryManager->queryAll();
@@ -72,8 +76,7 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 	}
 	$itemArr=array();//产品数组
 	foreach($allManager as $catId){//所有宝贝
-		$itemList=$itemManager->queryByCategory($catId,"hotsell",$itemNum);//查询宝贝列表
-		echo var_dump($catId);
+		$itemList=$itemManager->queryByCategory($catId,$typeSale,$itemNum);//查询宝贝列表
 		foreach($itemList as $item){
 			//判断获取的产品是否为空
 
@@ -84,29 +87,36 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 		}
 		   
 	}
-	$itemList=$itemManager->queryByIds($itemArr,"_price");  //最后排序宝贝
-	return $itemList; 
-
+	$itemList=$itemManager->queryByIds($itemArr,$typeSale);  //最后排序宝贝
 	//echo count($itemArr);
+	return $itemList; 
 }
 ?>
-
+		
 <div class="close-top">
 	<div class="l" style="background:url('http://img03.taobaocdn.com/imgextra/i3/46353909/T2ZiDHXn4aXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<?php
+		if (count($idList)==0 && $changes!="auto") {
+	?>
+		<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2FHPPXndXXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2dpzPXitXXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2B8zPXaBXXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2h9PPXXVXXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2lRiaXgRcXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2Cx2PXgxXXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2htnOXldaXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2e6zOXdhaXXXXXXXX_!!46353909.png') no-repeat;"></div>
+		<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2lRiaXgRcXXXXXXXX_!!46353909.png') no-repeat;"></div>
+	<?php
+		return ;}
+	 ?>
+
 	<?php
 	$num = count($itemList)>9?9:count($itemList);
+
 	for ($i=0; $i < $num; $i++) { 	
 ?>
 	<div class="l" style="background:url('<?php echo $itemList[$i]->getPicUrl(220,220);?>') no-repeat;"></div>
-<!-- 	<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2FHPPXndXXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2dpzPXitXXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2B8zPXaBXXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2h9PPXXVXXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2lRiaXgRcXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2Cx2PXgxXXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img04.taobaocdn.com/imgextra/i4/46353909/T2htnOXldaXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2e6zOXdhaXXXXXXXX_!!46353909.png') no-repeat;"></div>
-	<div class="l" style="background:url('http://img02.taobaocdn.com/imgextra/i2/46353909/T2lRiaXgRcXXXXXXXX_!!46353909.png') no-repeat;"></div> -->
 <?php
 }
 ?>
@@ -128,7 +138,7 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 	<a href="<?php echo $uriManager->detailURI($itemList[$i]);?>" class="pop" style="background:url('<?php echo $itemList[$i]->getPicUrl(220,220);?>') no-repeat;" target="_blank">
 		<i></i>
 		<span>
-			<b class="price"><?=$itemList[$i]->price;?></b>
+			<b class="price">￥<?=$itemList[$i]->price;?></b>
 			<b class="name"><?=$itemList[$i]->title;?></b>
 			<b class="count">销量：<?=$itemList[$i]->soldCount;?>件</b>
 		</span>

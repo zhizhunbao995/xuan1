@@ -9,5 +9,11 @@
  */
 
 .tshop-pbsm-shop-srch-list {}
-
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail a.item-name{color: #A54505;
+border-bottom: 1px dashed #EEE;}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail .attribute .cprice-area .c-price{color: #D84E66;}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4{color: #E07285}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4 span{color: #D33953}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail{}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail .attribute .cprice-area .symbol{color: #D84E66;}
  

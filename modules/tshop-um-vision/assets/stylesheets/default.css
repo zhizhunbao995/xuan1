@@ -10,7 +10,7 @@
 
 .tshop-um-vision { margin-bottom: 10px; position: relative;}
 .tshop-um-vision .img{
-background-position: center center;
+background-position: center top;
 background-repeat: no-repeat;
 background-attachment: fixed;height: 400px; border:1px solid #EE8EA0;}
 /*.tshop-um-vision .top-shadow{ background: url(assets/images/top.png) repeat-x; height: 21px; position: absolute; left: 0px; top: 0px;width: 100%;}

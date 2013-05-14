@@ -9,5 +9,14 @@
  */
 
 .tshop-pbsm-shop-item-recommend {}
+.tshop-pbsm-shop-item-recommend .skin-box-hd{ background: #CB3D67; border: none; padding: 4px 10px 3px; }
+.tshop-pbsm-shop-item-recommend .skin-box-hd h3 span{color: #FFFFF0;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act .more {color:#fff;}
+.tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act{ position: absolute;right: 5px;top:3px;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .cprice-area .c-price {color: #D84E66; }
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .cprice-area .symbol{color: #D84E66;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail a.item-name{color: #A54505;border-bottom: 1px dashed #eee;}
+.tshop-pbsm-shop-item-recommend .skin-box-bd .item .detail .attribute .cprice-area {padding-left: 45px; background: url("assets/images/rmb.png") 0px 2px no-repeat;}
+
 
  

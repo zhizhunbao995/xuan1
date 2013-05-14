@@ -2,7 +2,7 @@
 <site>
     <id>48509820d76644a48b5593a370cf550d</id>
     <name>Xuan高级服装模版</name>
-    <author name="[提示：请添加模板作者名称]" url="http://www.yourwebsite.com" wangwang="[提示：请添加模板作者的旺旺]"></author>
+    <author name="xuanxuan" url="http://www.yourwebsite.com" wangwang="宣辕剑"></author>
     <thumbnail>assets/images/style1.png</thumbnail>
     <language>PHP</language>
     <version>1.0.0</version>
@@ -15,10 +15,10 @@
         <header>header.json</header>
         <footer>footer.json</footer>
     </global>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default/extra.css</css>
-            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <thumbnail>assets/images/style1.png</thumbnail>
         </theme>
     </themes>
     <pages>

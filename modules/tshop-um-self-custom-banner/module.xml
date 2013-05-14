@@ -7,37 +7,37 @@
     <description>自定义店铺招牌，包括所有你想要展示的文字及内容！</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
     <parameters>
         <group title="店招设置">
-            <section title="方法一：店招名称,写字就能设置" folded="false" >
+            <section title="方法一：店招名称,写字就能设置" folded="false">
                 <param description="" formType="range" label="" name="shop_font" ptype="text">
                      <option value="show" selected="selected">显示</option>
-                     <option value="hide" >隐藏</option>
+                     <option value="hide">隐藏</option>
                 </param>
                 <param description="设置一个好听的名字可以增加你的人气！" formType="text" label="店铺名称" name="shop_name" ptype="text">SHOP Xuan</param>
-                <param description="针对性的描述可以吸引客户的需求！默认为'店铺介绍'" formType="text" label="店铺描述" name="shop_name_in" ptype="text"></param>
+                <param description="针对性的描述可以吸引客户的需求！默认为'店铺介绍'" formType="text" label="店铺描述" name="shop_name_in" ptype="text"/>
             </section>
             <section title="方法二：店招名称,自己动手设计图" folded="false">
                 <param description="请输入一个图片地址作为店招。" formType="text" label="图片地址" name="shop_logo_url" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2_C5YXmxbXXXXXXXX_!!46353909.png</param>
             </section>
-            <section>
-                <param description="点击你的店名希望跳转到哪里！" formType="text" label="跳转地址" name="shop_url" ptype="url"></param>
+            <section folded="true">
+                <param description="点击你的店名希望跳转到哪里！" formType="text" label="跳转地址" name="shop_url" ptype="url"/>
             </section>
         </group>
         <group title="旺旺设置">
-             <section title="右边客服按钮" folded="false">
-                 <param description="请输入旺旺号！数目不要超过四个用|隔开！" formType="text" label="旺旺号" name="shop_w" ptype="text">宣辕剑|宣辕剑|宣辕剑|宣辕剑</param>
-             </section>
+            <section title="右边客服按钮" folded="false">
+                <param description="请输入旺旺号！数目不要超过四个用|隔开！" formType="text" label="旺旺号" name="shop_w" ptype="text">宣辕剑|宣辕剑|宣辕剑|宣辕剑</param>
+            </section>
         </group>
         <group title="推荐设置">
-             <section title="右边推荐按钮" folded="false">
-                 <param description="填入你要推荐宝贝的链接地址！" formType="text" label="链接地址" name="shop_recommend" ptype="url"></param>
-             </section>
+            <section title="右边推荐按钮" folded="false">
+                <param description="填入你要推荐宝贝的链接地址！" formType="text" label="链接地址" name="shop_recommend" ptype="url"/>
+            </section>
         </group>
     </parameters>
 </module>

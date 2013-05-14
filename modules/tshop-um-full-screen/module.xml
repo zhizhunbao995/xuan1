@@ -7,8 +7,8 @@
     <description></description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
@@ -26,7 +26,7 @@
                 <param description="请输入大小为950的图片" formType="text" label="图片1地址" name="img1" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T256PNXgxXXXXXXXXX_!!46353909.png</param>
                 <param description="请输入跳转地址" formType="text" label="图片1跳转地址" name="img1_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T256PNXgxXXXXXXXXX_!!46353909.png</param>
                 <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img1_text" ptype="text">热门衣物登场1</param>
-                <param description="当背景不够大时可用背景色填充，可选。" formType="text" label="填入背景色" name="img1_color" ptype="text"></param>
+                <param description="当背景不够大时可用背景色填充，可选。" formType="text" label="填入背景色" name="img1_color" ptype="text"/>
             </section>
             <section title="图片二" folded="false">
                 <param description="请输入大小为950的图片" formType="text" label="图片2地址" name="img2" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2l9znXnBaXXXXXXXX_!!46353909.png</param>
@@ -50,7 +50,7 @@
                 <param description="请输入大小为950的图片" formType="text" label="图片5地址" name="img5" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2hALNXjpaXXXXXXXX_!!46353909.png</param>
                 <param description="请输入跳转地址" formType="text" label="图片5跳转地址" name="img5_href" ptype="url">http://img01.taobaocdn.com/imgextra/i1/46353909/T2hALNXjpaXXXXXXXX_!!46353909.png</param>
                 <param description="比如：热门衣物登场" formType="text" label="图片描述" name="img5_text" ptype="url">热门衣物登场5</param>
-                <param description="当背景不够大时可用背景色填充，可选。" formType="text" label="填入背景色" name="img5_color" ptype="text"></param>
+                <param description="当背景不够大时可用背景色填充，可选。" formType="text" label="填入背景色" name="img5_color" ptype="text"/>
             </section>
         </group>
         <group title="动画设置">

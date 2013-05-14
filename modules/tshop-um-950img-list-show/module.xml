@@ -7,8 +7,8 @@
     <description>多尺寸(950/750/550)宝贝展示模块，满足您全部宝贝的展现方式，不同布局适合您自己的个性化设计！</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>750,950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>

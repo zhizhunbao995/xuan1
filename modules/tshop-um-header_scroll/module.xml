@@ -7,8 +7,8 @@
     <description>规则六图切换 划过大图显示</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>750,950</supportedWidth>
-    <themes default="默认">
-        <theme name="默认">
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
     </themes>
