@@ -9,5 +9,9 @@
  */
 
 .tshop-pbsm-other-wireless-code {}
-
- 
+.tshop-pbsm-other-wireless-code .skin-box-hd{ background: #CB3D67; border: none; padding: 4px 10px 3px;}
+.tshop-pbsm-other-wireless-code .skin-box-hd h3 span{color: #FFFFF0;}
+.tshop-pbsm-other-wireless-code div.skin-box-bd {border:1px solid #EE8EA0;padding: 0px;}
+.tshop-pbsm-other-wireless-code h4{background: #FFF5EC;padding: 4px 10px 4px;color: #A54505}
+.tshop-pbsm-other-wireless-code .down{ background: #D84E66;}
+.tshop-pbsm-other-wireless-code .down a{color: #FFFFF0}

@@ -1,0 +1,33 @@
+/**
+ * 模块：tshop-um-wall-water 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-wall-water"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-wall-water {background: #fff;margin-bottom: 10px;overflow: hidden;}
+.tshop-um-wall-water .clear{clear:both;padding: 10px;padding-right: 0px;}
+.tshop-um-wall-water .list_wall{float: left;width: 230px; margin-right: 4px;}
+.tshop-um-wall-water .list_wall li{ vertical-align: top;padding: 4px; margin-bottom: 10px;overflow: hidden; margin-right: 4px;border: 1px solid #FDE3E3; }
+.tshop-um-wall-water .list_wall li.first{ background: url("assets/images/first.png") no-repeat;height: 260px;padding: 0px;border: none;}
+.tshop-um-wall-water .list_wall li.height310 img{width: 310px;}
+.tshop-um-wall-water .itemimg {width: 216px;overflow: hidden;position: relative;}
+.tshop-um-wall-water .imgbox{background-image:url("http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg") no-repeat;}
+.tshop-um-wall-water .itemimg img{width:220px;}
+.tshop-um-wall-water .item-title{padding-bottom: 5px;word-wrap:break-word;padding: 5px 0px 3px 0px; }
+.tshop-um-wall-water .item-title a{color: #333;}
+.tshop-um-wall-water .item-title a span{display: none;}
+.tshop-um-wall-water .item-title a:hover span{display: inline;}
+.tshop-um-wall-water .buy{background: #D84E66; padding: 3px 15px 5px 15px;color: #FFFFF0;line-height: 1; float: left;}
+.tshop-um-wall-water .buy:hover{text-decoration: none;}
+.tshop-um-wall-water .item-buy{text-align: right;clear: both; }
+.tshop-um-wall-water .prices{float: left;color:#D84E66;font-family: ""Courier New", Courier, monospace"}
+.tshop-um-wall-water .prices i{font-style: normal;font-weight: bold;}
+.tshop-um-wall-water .prices strong{font-size: 14px; margin-left: 2px;}
+.tshop-um-wall-water .item-tool{clear: both; padding-top: 7px;}
+.tshop-um-wall-water .favorite{float: right; background: url("assets/images/fav.png") no-repeat; width: 60px;height: 20px; font-size: 0px; margin-right: 5px; text-indent: -9999; }
+.tshop-um-wall-water .sns-sharebtn-custom{margin-right: 5px;float:right;font-size: 0px;cursor: pointer; background: url("assets/images/share1.png") no-repeat; width: 136px; height: 16px;}
+.tshop-um-wall-water .simple-like{float: left; position:absolute;bottom: 5px;right:5px;}

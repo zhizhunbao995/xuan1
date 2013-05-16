@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-wall-water</id>
+    <name>蘑菇街瀑布流</name>
+    <file>tshop-um-wall-water.php</file>
+    <thumbnail>../../assets/images/pubu.png</thumbnail>
+    <description>仿蘑菇街的瀑布流布局呦！完全自定义，还有分享和关注呦！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+        <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择宝贝" folded="false">
+                <param description="请选择第一列宝贝" formType="itemForm" label="选择宝贝" name="item-0" ptype="item">8,9,10</param>
+                <param description="请选择第二列宝贝" formType="itemForm" label="选择宝贝" name="item-1" ptype="item">8,9,11</param>
+                <param description="请选择第三列宝贝" formType="itemForm" label="选择宝贝" name="item-2" ptype="item"></param>
+                <param description="请选择第四列宝贝" formType="itemForm" label="选择宝贝" name="item-3" ptype="item"></param>
+            </section>
+        </group>
+    </parameters>
+</module>
