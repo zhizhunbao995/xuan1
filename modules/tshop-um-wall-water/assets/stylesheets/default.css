@@ -25,7 +25,7 @@
 .tshop-um-wall-water .buy:hover{text-decoration: none;}
 .tshop-um-wall-water .item-buy{text-align: right;clear: both; }
 .tshop-um-wall-water .prices{float: left;color:#D84E66;font-family: ""Courier New", Courier, monospace"}
-.tshop-um-wall-water .prices i{font-style: normal;font-weight: bold;}
+.tshop-um-wall-water .prices i{font-style: normal;font-weight: bold;color:#E27C8E;}
 .tshop-um-wall-water .prices strong{font-size: 14px; margin-left: 2px;}
 .tshop-um-wall-water .item-tool{clear: both; padding-top: 7px;}
 .tshop-um-wall-water .favorite{float: right; background: url("assets/images/fav.png") no-repeat; width: 60px;height: 20px; font-size: 0px; margin-right: 5px; text-indent: -9999; }

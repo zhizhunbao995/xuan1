@@ -84,7 +84,7 @@ for ($k=0; $k < $creattimes ; $k++) {
 					type:"item",
 					key:<?php echo $keyid;?>,
 					comment:"这个宝贝很赞哦，分享给大家！",
-					pic:<?php echo $imgurl;?>,
+					pic:"<?php echo $imgurl;?>",
 					client_id:68,
 					isShowFriend:false
 				}'
