@@ -24,7 +24,7 @@
 
 .tshop-um-header_scroll .mall-content img{ width:950px; height:100%;}
 
-.tshop-um-header_scroll .ks-switchable-nav{ position:absolute; bottom:0px;width:100%;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;*filter:alpha(opacity=80); padding-right:2px; z-index:10;   }
+.tshop-um-header_scroll .ks-switchable-nav{ position:absolute; bottom:0px;width:100%;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); padding-right:2px; z-index:10;   }
 
 .tshop-um-header_scroll  .ks-switchable-nav li{ float:left; width:20%; display:inline;zoom:1; color:#fff;line-height:35px; height:35px; border-left:1px solid #000; margin-left:-1px; text-indent:10px; overflow:hidden; cursor:pointer;}
 

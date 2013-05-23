@@ -29,4 +29,16 @@ function clearArray($a){//去除数组空元素
 	}
 	return $newarray;
 }
+function creatTit ($tit,$more){
+	if(isset($tit)){
+		$n = $tit;
+		$u = isset($more)?$more:"#";
+		$html = "<div class='title'>
+				<span class='titleico'></span>
+				<span>{$n}</span>
+				<a href={$u}>More></a>
+			</div>";
+		echo $html;
+	}
+}
 ?>

@@ -16,7 +16,6 @@ for ($i=0; $i < 4 ; $i++) {
 		}
 	}
 }
-
 ?>
 <Div class="clear">
 <?php
@@ -49,8 +48,8 @@ for ($k=0; $k < $creattimes ; $k++) {
 			}
 			if ($itemList[$k] == "") {
 				$imgurl = "http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg";
-				$keyid =0;
-				$itemurl ="###";
+				$keyid = 0;
+				$itemurl ="";
 				$itemtitle  = $normalTitle;
 				$itemRmb = "888.00";
 			}
@@ -73,12 +72,24 @@ for ($k=0; $k < $creattimes ; $k++) {
 				}'
 				class="sns-widget">喜欢 </div> 
 			</div>
-			<div class="item-title"><a href="<?php echo $itemurl;?>"><?php echo $itemtitle;?></a></div>
+			<div class="item-title"><a href="<?php echo $itemurl;?>"><?php echo $itemtitle;?></a>
+				<?php 
+				// if ($keyid) {
+				// 	$count = $rateManager->queryRateCount($keyid);
+			 //       if($count){
+			 //          echo "好评数：".$count->goodCount;
+			 //          echo "中评数：".$count->normalCount;
+			 //          echo "差评数：".$count->badCount;
+			 //       }
+				// }
+
+				?>
+			</div>
 			<div class="item-buy">
 				<Span class="prices"><i>RMB</i><strong><?php echo $itemRmb;?></strong></Span>
 				<a href="http://favorite.taobao.com/popup/add_collection.htm?<?php echo 'id='.$keyid.'&itemtype=1'?>" target="_blank" class="favorite"></a>
 			</div>
-			<div class="item-tool">
+			<div class="item-tool clearfix ">
 				<div data-sharebtn='{
 					skinType:3,
 					type:"item",
@@ -89,6 +100,27 @@ for ($k=0; $k < $creattimes ; $k++) {
 					isShowFriend:false
 				}'
 				class="sns-widget">分享</div>
+			</div>
+			<div class="recomd">
+				<?php
+					$t = 0;
+					if ($keyid != 0){
+				    $rates = $rateManager->queryAuctionRates($keyid);
+			       foreach($rates as $rate)
+			       {
+				?>
+			      <Div class="imguser">
+			      	<img src="http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg">   
+			      </Div> 
+			      <Div class="feedinfo">
+			      	<a><?=$rate->raterNick;?>:</a>
+			      	<?=$rate->feedback;?>
+			      </Div>   			         
+			   <?php 
+			   break;
+			       }
+			   }
+			   ?>
 			</div>
 		</li>
 

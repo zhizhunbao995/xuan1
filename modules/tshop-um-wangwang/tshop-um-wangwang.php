@@ -65,11 +65,11 @@ for ($i=1; $i < count($items)+1; $i++) {
 		<div class="w_sever"></div>
 		<?php 
 			for($j=0;$j<count($newarray[$c][0]);$j++){//看是否第一个 name的个数的循环
-			
 	?>	
 			<div class="w_item">
+				
+				<a class="w_name" href="#" >
 				<img src="<? echo $newarray[$c][2][$j]; ?>" class="w_img">
-				<a class="w_name" href="javascript:;">
 				<span><? echo $newarray[$c][0][$j]; ?></span></a>
 				<? echo $uriManager->supportTag($newarray[$c][1][$j],"客服",2); ?>
 			</div>

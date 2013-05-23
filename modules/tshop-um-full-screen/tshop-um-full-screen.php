@@ -66,7 +66,7 @@ data-widget-config="{'navCls':'ks-switchable-nav','contentCls':'ks-switchable-co
 			            }">
 			   		<a class="mall-next"></a>
 			</div>		
-			<div class="full">
+			<div class="full" style="width:2400px;">
 			<ul class="ks-switchable-content">
 				<?php
 

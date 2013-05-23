@@ -10,7 +10,7 @@
     <apply-user></apply-user>
     <template-type>2</template-type>
     <change-notes>[提示：请添加模板修改日志]</change-notes>
-    <description>做更好的女装，做更好的女人！特别的SDK模版！</description>
+    <description>做更好的女士用品，做更好的女人！特别的SDK模版！</description>
     <global>
         <header>header.json</header>
         <footer>footer.json</footer>

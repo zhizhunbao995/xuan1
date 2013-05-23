@@ -15,11 +15,13 @@
 .tshop-um-close-light .close-pop {zoom:1;width:930px; display: none;}
 .tshop-um-close-light .close-pop:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-close-light .close-pop .pop{display: block;float: left;width: 180px; height: 180px; margin-right: 6px;margin-bottom: 5px; overflow:hidden; position: relative;}
-.tshop-um-close-light .close-pop .pop span{ position: absolute;bottom: 0px;background:#000;_filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
-opacity: 0.8;color: #fff; height: 40px;color: #fff; display: none; }
-.tshop-um-close-light .close-pop .pop i{background:#000;_filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);opacity: 0.6;width: 180px; height: 180px; position: absolute;top: 0px;left: 0px;}
-.tshop-um-close-light .close-pop .pop:hover span{display: block;}
-.tshop-um-close-light .close-pop .pop:hover i{display: none;}
+.tshop-um-close-light .close-pop .pop img{ position: absolute;z-index: 1;display: inline;}
+.tshop-um-close-light .close-pop .pop:hover{ background:yellow;}
+.tshop-um-close-light .close-pop .pop span{ position: absolute;bottom: 0px;background:#000;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+opacity: 0.8;color: #fff; height: 40px;color: #fff; visibility: hidden; z-index: 3;}
+.tshop-um-close-light .close-pop .pop i{z-index: 2;background:#000;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);opacity: 0.6;width: 180px; height: 180px; position: absolute;top: 0px;left: 0px;}
+.tshop-um-close-light .close-pop .pop:hover span{visibility:visible;}
+.tshop-um-close-light .close-pop .pop:hover i{ visibility: hidden;}
 .tshop-um-close-light .close-pop .pop b{ font-weight: normal;}
 .tshop-um-close-light .close-pop .pop .price{float: left; background: #D84E66; height: 40px; width: 60px; line-height: 40px; text-align: center;overflow: hidden;}
 .tshop-um-close-light .close-pop .pop .count{  width: 110px; height: 20px;overflow:hidden; color: #F98166; float: left; text-align: right;padding-left: 5px;padding-right: 2px;}

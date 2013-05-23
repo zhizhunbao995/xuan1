@@ -11,12 +11,17 @@
 .tshop-um-class .clear{zoom:1;}
 .tshop-um-class .clear:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-class ul{ background:#FFF0EB; border-bottom: 1px solid #FFE2D9;width:655px; float: left; margin-left: 10px; }
-.tshop-um-class ul li{ border-top: 1px dashed #FFE2D9; height: 30px;  line-height: 30px;}
-.tshop-um-class ul li .first-m{  float: left; border-right: 1px solid #FFE2D9;width: 120px;padding-left: 5px;font-weight: bold; text-align: center; overflow: hidden;height: 30px;}
-.tshop-um-class ul li .first-sub{ float:left;padding-left: 5px;overflow: hidden;height: 30px; width: 500px;background: #FFF5EC ;}
+.tshop-um-class ul li{ border-top: 1px dashed #FFE2D9; line-height: 1.8;zoom:1}
+.tshop-um-class ul li:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-class ul li .first-m{  float: left; border-right: 1px solid #FFE2D9;width: 120px;padding-left: 5px;font-weight: bold; text-align: center; overflow: hidden;}
+.tshop-um-class ul li .first-sub{ float:left;padding-left: 5px;overflow: hidden; width: 500px;background: #FFF5EC ;}
 .tshop-um-class ul li .first-m a{color: #CB3D67;}
 .tshop-um-class ul li .first-sub a{color: #D84E66; }
 .tshop-um-class ul li .first-sub a:hover{text-decoration: underline;}
 .tshop-um-class  .class-title{ float: left; width: 260px;}
 .tshop-um-class  .class-title h1{height: 50px; line-height: 50px; text-indent: 10px; margin-bottom: 3px;background: #EE5279; color: #fff;font-size: 16px;}
 .tshop-um-class  .class-title .class-img{width: 260px;height: 160px; overflow:hidden;}
+
+/*=750*/
+.grid-s5m0 .col-main .tshop-um-class ul,.grid-m0s5 .col-main .tshop-um-class ul{background:#FFF0EB; border-bottom: 1px solid #FFE2D9;width:455px; float: left; margin-left: 10px;}
+.grid-s5m0 .col-main .tshop-um-class ul li .first-sub,.grid-m0s5 .col-main .tshop-um-class ul li .first-sub { float:left;padding-left: 5px;overflow: hidden; width: 320px;background: #FFF5EC ;}

@@ -7,9 +7,19 @@
  *		3. CSS样式文件中z-index属性值必须在1-99之间
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
-
+.tshop-um-wall-water .clearfix {
+    clear: both;
+    zoom:1;
+}
+.tshop-um-wall-water .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 .tshop-um-wall-water {background: #fff;margin-bottom: 10px;overflow: hidden;}
-.tshop-um-wall-water .clear{clear:both;padding: 10px;padding-right: 0px;}
+.tshop-um-wall-water .clear{clear:both;padding: 10px 0px 0px 10px;}
 .tshop-um-wall-water .list_wall{float: left;width: 230px; margin-right: 4px;}
 .tshop-um-wall-water .list_wall li{ vertical-align: top;padding: 4px; margin-bottom: 10px;overflow: hidden; margin-right: 4px;border: 1px solid #FDE3E3; }
 .tshop-um-wall-water .list_wall li.first{ background: url("assets/images/first.png") no-repeat;height: 260px;padding: 0px;border: none;}
@@ -31,3 +41,15 @@
 .tshop-um-wall-water .favorite{float: right; background: url("assets/images/fav.png") no-repeat; width: 60px;height: 20px; font-size: 0px; margin-right: 5px; text-indent: -9999; }
 .tshop-um-wall-water .sns-sharebtn-custom{margin-right: 5px;float:right;font-size: 0px;cursor: pointer; background: url("assets/images/share1.png") no-repeat; width: 136px; height: 16px;}
 .tshop-um-wall-water .simple-like{float: left; position:absolute;bottom: 5px;right:5px;}
+.tshop-um-wall-water .recomd{ background: #f7f7f7;clear: both; margin-top: 5px;zoom:1;padding: 5px; }
+.tshop-um-wall-water .imguser{float: left; display: inline;overflow: hidden;font-size: 0px;height: 30px; width: 30px; margin-top: 3px;}
+.tshop-um-wall-water .imguser img{height: 30px; width: 30px;overflow: hidden;}
+.tshop-um-wall-water .feedinfo{ margin-left: 35px;color: #aaa;border-top: 1px solid #f4f4f4;}
+.tshop-um-wall-water .feedinfo a{color: #ff86b6;}
+
+/*=750*/
+.grid-s5m0 .col-main .tshop-um-wall-water .list_wall, .grid-m0s5 .col-main .tshop-um-wall-water .list_wall {width: 240px;}
+.grid-s5m0 .col-main .tshop-um-wall-water .clear, .grid-m0s5 .col-main .tshop-um-wall-water .clear{width: 990px;}
+.grid-s5m0 .col-main .tshop-um-wall-water .itemimg,.grid-m0s5 .col-main .tshop-um-wall-water .itemimg{width: 226px;}
+.grid-s5m0 .col-main .tshop-um-wall-water .list_wall,.grid-m0s5 .col-main .tshop-um-wall-water .list_wall{ margin-right: 6px;}
+.grid-s5m0 .col-main .tshop-um-wall-water .itemimg img,.grid-m0s5 .col-main .tshop-um-wall-water .itemimg img{width:230px;}

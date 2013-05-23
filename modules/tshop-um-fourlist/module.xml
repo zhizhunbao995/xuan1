@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-fourlist</id>
+    <name>四图展示</name>
+    <file>tshop-um-fourlist.php</file>
+    <thumbnail>../../assets/images/fourbig.png</thumbnail>
+    <description>竖版四图展示，鼠标滑过有遮罩有提示信息呀！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+        <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择宝贝" folded="false">
+                <param description="选择宝贝时最好选择双数" formType="itemForm" label="选择宝贝" name="items" ptype="item">7,8,9,10</param>
+             
+            </section>
+        </group>
+    </parameters>
+</module>

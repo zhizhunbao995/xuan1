@@ -14,12 +14,12 @@
     </themes>
     <parameters>
         <group title="选择您想展示的宝贝">
-            <section title="请选择三项宝贝" folded="false">
+            <section title="请选择宝贝" folded="false">
                 <param description="选宝贝方式，默认为系统自动获取" formType="range" label="选择宝贝方式" name="changes" ptype="text">
                    <option value="auto">系统自动挑选宝贝</option>
                    <option value="hand" selected="selected">手动选择</option>
                </param>
-                <param description="请选择宝贝" formType="itemForm" label="选择宝贝" name="item-s" ptype="item">15,22,21</param>
+                <param description="请选择宝贝" formType="itemForm" label="选择宝贝" name="item-s" ptype="item">7,8,9,15,22,21</param>
                 <param description="请选择排序类型" formType="select" label="书籍类型" name="types" ptype="text">
                    <option value="_hotsell" selected="selected">热销宝贝降序排序</option>
                    <option value="hotsell">热销宝贝升序排序</option>

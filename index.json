@@ -3,24 +3,24 @@
   "layouts" : [ {
     "type" : "grid-m0",
     "modules" : {
-      "main" : [ ]
-    }
-  }, {
-    "type" : "grid-m0",
-    "modules" : {
-      "main" : [ ]
-    }
-  }, {
-    "type" : "grid-m0",
-    "modules" : {
-      "main" : [ ]
-    }
-  }, {
-    "type" : "grid-m0",
-    "modules" : {
       "main" : [ {
-        "moduleID" : "tshop-um-wall-water"
+        "moduleID" : "tshop-um-footer"
       } ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ ]
     }
   }, {
     "type" : "grid-s5m0",

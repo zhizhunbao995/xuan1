@@ -135,7 +135,8 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 	for ($i=0; $i < $num; $i++) { 
 		
 ?> 
-	<a href="<?php echo $uriManager->detailURI($itemList[$i]);?>" class="pop" style="background:url('<?php echo $itemList[$i]->getPicUrl(220,220);?>') no-repeat;" target="_blank">
+	<a href="<?php echo $uriManager->detailURI($itemList[$i]);?>" class="pop"  target="_blank">
+		<img src="<?php echo $itemList[$i]->getPicUrl(220,220);?>" /> 
 		<i></i>
 		<span>
 			<b class="price">гд<?=$itemList[$i]->price;?></b>

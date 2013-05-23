@@ -15,10 +15,10 @@
         <parameters>
         <group title="选择您想展示的宝贝">
             <section title="请选择宝贝" folded="false">
-                <param description="请选择第一列宝贝" formType="itemForm" label="选择宝贝" name="item-0" ptype="item">8,9,10</param>
-                <param description="请选择第二列宝贝" formType="itemForm" label="选择宝贝" name="item-1" ptype="item">8,9,11</param>
-                <param description="请选择第三列宝贝" formType="itemForm" label="选择宝贝" name="item-2" ptype="item"></param>
-                <param description="请选择第四列宝贝" formType="itemForm" label="选择宝贝" name="item-3" ptype="item"></param>
+                <param description="请选择第一列宝贝,选择3个" formType="itemForm" label="第一列选择宝贝" name="item-0" ptype="item">8,9,10</param>
+                <param description="请选择第二列宝贝,选择4个" formType="itemForm" label="第二列选择宝贝" name="item-1" ptype="item"></param>
+                <param description="请选择第三列宝贝,选择4个" formType="itemForm" label="第三列选择宝贝" name="item-2" ptype="item"></param>
+                <param description="请选择第四列宝贝,选择4个" formType="itemForm" label="第四列选择宝贝" name="item-3" ptype="item"></param>
             </section>
         </group>
     </parameters>
