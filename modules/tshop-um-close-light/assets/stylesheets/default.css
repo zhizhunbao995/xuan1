@@ -8,7 +8,7 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-close-light {padding: 10px 10px 5px 10px;margin-bottom:10px; border: 1px solid #EE8EA0; background: #fff;zoom:1; padding-right: 0px; }
+.tshop-um-close-light {padding: 10px 10px 5px 10px;margin-bottom:10px; border: 1px solid #FFD9DE; background: #fff;zoom:1; padding-right: 0px; }
 .tshop-um-close-light .close-top{width:930px;zoom:1;}
 .tshop-um-close-light .close-top:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-close-light .close-top div.l{ float: left;width: 180px; height: 180px; margin-right: 6px;margin-bottom: 5px;}
@@ -27,3 +27,7 @@ opacity: 0.8;color: #fff; height: 40px;color: #fff; visibility: hidden; z-index:
 .tshop-um-close-light .close-pop .pop .count{  width: 110px; height: 20px;overflow:hidden; color: #F98166; float: left; text-align: right;padding-left: 5px;padding-right: 2px;}
 .tshop-um-close-light .close-pop .pop .name{ width: 110px; height: 20px;overflow:hidden;color: #Fff; float: left;padding-left: 5px;text-align: right;padding-right: 2px;}
 .tshop-um-close-light .close-pop a:hover{ text-decoration: none;}
+
+.tshop-um-close-light  .title{margin-bottom:10px;background: #F98AAB;height: 70px;line-height: 70px; padding:0px 20px 0px 20px;color: #fff;font-size: 25px; font-family: "微软雅黑";}
+.tshop-um-close-light  .titleico {background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2gfr9Xf8XXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
+.tshop-um-close-light  .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;}

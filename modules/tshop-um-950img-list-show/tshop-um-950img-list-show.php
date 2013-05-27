@@ -11,7 +11,7 @@ $height = $_MODULE['img_height'];
 $name = array($_MODULE['t-name0'],$_MODULE['t-name1'],$_MODULE['t-name2']);
 $imgheight = $height>=600? 600 : $height<=310?310: $height;
 //默认好看图片
-$example = array("http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg","http://img03.taobaocdn.com/imgextra/i3/46353909/T2kGHKXdRaXXXXXXXX_!!46353909.jpg","http://img04.taobaocdn.com/imgextra/i4/46353909/T2205sXetcXXXXXXXX_!!46353909.jpg");
+$example = array("http://img02.taobaocdn.com/imgextra/i2/46353909/T2AtaWXhJbXXXXXXXX_!!46353909.png","http://img02.taobaocdn.com/imgextra/i2/46353909/T2QQ6.Xc0XXXXXXXXX_!!46353909.png","http://img03.taobaocdn.com/imgextra/i3/46353909/T2GGb.XlVXXXXXXXXX_!!46353909.png");
 $imgbg = false;
 
 //如果用户没有选择宝贝,计算数组数量还是为1,所以要处理下数据
@@ -69,7 +69,6 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 ?>
 	<div class="xuan-imglist">
 		<?php 
-
 			creatTit($_MODULE["title"],$_MODULE["more"]);
 		?>
 		<ul>

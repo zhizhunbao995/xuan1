@@ -4,30 +4,41 @@
     "type" : "grid-m0",
     "modules" : {
       "main" : [ {
-        "moduleID" : "tshop-um-footer"
+        "moduleID" : "tshop-um-full-screen"
       } ]
     }
   }, {
     "type" : "grid-m0",
     "modules" : {
-      "main" : [ ]
+      "main" : [ {
+        "moduleID" : "tshop-um-wangwang"
+      } ]
     }
   }, {
     "type" : "grid-m0",
     "modules" : {
-      "main" : [ ]
-    }
-  }, {
-    "type" : "grid-m0",
-    "modules" : {
-      "main" : [ ]
+      "main" : [ {
+        "moduleID" : "tshop-um-fourlist"
+      }, {
+        "moduleID" : "tshop-um-fourimg"
+      }, {
+        "moduleID" : "tshop-um-950img-list-show"
+      }, {
+        "moduleID" : "tshop-um-vision"
+      }, {
+        "moduleID" : "tshop-um-wall-water"
+      }, {
+        "moduleID" : "tshop-um-class"
+      }, {
+        "moduleID" : "tshop-um-header_scroll"
+      }, {
+        "moduleID" : "tshop-um-close-light"
+      } ]
     }
   }, {
     "type" : "grid-s5m0",
     "modules" : {
-      "sub" : [ {
-        "moduleID" : "tshop-pbsm-shop-top-list"
-      } ],
+      "sub" : [ ],
       "main" : [ ]
     }
   } ]

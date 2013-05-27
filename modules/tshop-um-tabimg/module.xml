@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-tabimg</id>
+    <name>格子图展示架</name>
+    <file>tshop-um-tabimg.php</file>
+    <thumbnail>../../assets/images/6gezi.png</thumbnail>
+    <description>鼠标滑过预览大图，展示大图。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

@@ -18,7 +18,7 @@
 
 
 
-.tshop-um-wangwang {height: 60px; border: 1px solid #EE8EA0; padding: 10px; background: #fff; margin-bottom: 10px; }
+.tshop-um-wangwang {height: 60px; border: 1px solid #FFD9DE; padding: 10px; background: #fff; margin-bottom: 10px; }
 .tshop-um-wangwang .w_cont{background: #FFF0EB url(./././assets/images/bg_wangwang.jpg) no-repeat;height: 60px; padding-left: 140px;overflow: hidden;}
 .tshop-um-wangwang .w_list a{ display: inline-block;width: 10px;height: 15px; position: absolute; bottom: 3px; right: 6px; z-index: 3; text-align: right; border: }
 .tshop-um-wangwang .w_list span{z-index: 3; position: absolute;left: 0px; text-align: center;color: #FFFFF0;font-size: 12px; top:0px;visibility: hidden;width: 35px;overflow:hidden;height: 35px;background: #D15479; line-height: 35px; cursor: pointer;}

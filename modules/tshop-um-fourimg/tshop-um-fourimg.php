@@ -13,6 +13,9 @@ $idList=explode(',',$list);
 $idList=clearnull($idList);
 
 ?>
+<?php 
+	creatTit($_MODULE["title"],$_MODULE["more"]);
+?>
 <ul>
 <?php 
 if($idList == null){
@@ -24,11 +27,11 @@ for ($i=0; $i < count($itemList); $i++) {
 
 ?>
 		<li>
-			<a href="<?php echo $uriManager->detailURI($itemList[$i]);?>" target="_blank"><img src="<?php 
+			<a href="<?php echo $uriManager->detailURI($itemList[$i]);?>" target="_blank" class="mouse"><img src="<?php 
 			if($itemList[$i] != ""){
 				echo $itemList[$i]->getPicUrl(430,430)
 			}else{
-				echo "http://img03.taobaocdn.com/imgextra/i3/46353909/T2kGHKXdRaXXXXXXXX_!!46353909.jpg";
+				echo "http://img04.taobaocdn.com/imgextra/i4/46353909/T2205sXetcXXXXXXXX_!!46353909.jpg";
 			}
 				?>">
 				<Div class="pop">
@@ -55,7 +58,7 @@ for ($i=0; $i < count($itemList); $i++) {
 			</a>
 		</li>
 <!-- 		<li>
-			<a><img src="http://img03.taobaocdn.com/imgextra/i3/46353909/T2kGHKXdRaXXXXXXXX_!!46353909.jpg1"></a>
+			<a><img src="http://img04.taobaocdn.com/imgextra/i4/46353909/T2205sXetcXXXXXXXX_!!46353909.jpg1"></a>
 		</li> -->	
 <?php 
 }

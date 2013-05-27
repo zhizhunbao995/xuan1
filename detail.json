@@ -5,6 +5,8 @@
     "modules" : {
       "sub" : [ {
         "moduleID" : "tshop-pbsm-other-liangzi"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-cates"
       } ],
       "main" : [ {
         "moduleID" : "tshop-um-class"

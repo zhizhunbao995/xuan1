@@ -7,7 +7,7 @@
  *		3. CSS样式文件中z-index属性值必须在1-99之间
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
-.tshop-um-class {padding: 10px;margin-bottom:10px; border: 1px solid #EE8EA0; background: #fff;zoom:1;}
+.tshop-um-class {padding: 10px;margin-bottom:10px; border: 1px solid #FFD9DE; background: #fff;zoom:1;}
 .tshop-um-class .clear{zoom:1;}
 .tshop-um-class .clear:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-class ul{ background:#FFF0EB; border-bottom: 1px solid #FFE2D9;width:655px; float: left; margin-left: 10px; }

@@ -17,6 +17,9 @@ for ($i=0; $i < 4 ; $i++) {
 	}
 }
 ?>
+<?php 
+	creatTit($_MODULE["title"],$_MODULE["more"]);
+?>
 <Div class="clear">
 <?php
 for ($j=0; $j < count($four); $j++) { 
@@ -47,7 +50,7 @@ for ($k=0; $k < $creattimes ; $k++) {
 				echo "<li>";
 			}
 			if ($itemList[$k] == "") {
-				$imgurl = "http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg";
+				$imgurl = "http://img04.taobaocdn.com/imgextra/i4/46353909/T237z.XdNXXXXXXXXX_!!46353909.png";
 				$keyid = 0;
 				$itemurl ="";
 				$itemtitle  = $normalTitle;

@@ -8,7 +8,7 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-pbsm-shop-item-recommend {}
+.tshop-pbsm-shop-item-recommend {margin-bottom: 10px;}
 .tshop-pbsm-shop-item-recommend .skin-box-hd{ background: #CB3D67; border: none; padding: 4px 10px 3px; }
 .tshop-pbsm-shop-item-recommend .skin-box-hd h3 span{color: #FFFFF0;}
 .tshop-pbsm-shop-item-recommend .skin-box-hd .skin-box-act .more {color:#fff;}

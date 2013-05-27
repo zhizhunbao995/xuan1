@@ -8,7 +8,7 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-950img-list-show {margin-bottom:10px; border: 1px solid #EE8EA0; padding:10px; background: #fff;}
+.tshop-um-950img-list-show {margin-bottom:10px; border: 1px solid #FFD9DE; padding:10px; background: #fff;}
 .tshop-um-950img-list-show .float_l{ float:left;}
 .tshop-um-950img-list-show .float_r{ float:right;}
 .tshop-um-950img-list-show .position{ position:absolute;}

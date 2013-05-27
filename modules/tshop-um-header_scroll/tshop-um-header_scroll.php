@@ -41,27 +41,6 @@ $itemList=array();  //宝贝数据
 
 $imgList=array();   //图片数据
 
-$provide_imgList=array(
-
-'assets/images/slide/slide5_03.jpg',
-
-'assets/images/slide/slide5_03.jpg',
-
-'assets/images/slide/slide5_03.jpg',
-
-'assets/images/slide/slide5_06.jpg',
-
-'assets/images/slide/slide5_06.jpg',
-
-'assets/images/slide/slide5_06.jpg',
-
-'assets/images/slide/slide5_06.jpg',
-
-'assets/images/slide/slide5_06.jpg',
-
-'assets/images/slide/slide5_06.jpg'
-
-);
 
 //从用户那个获取数据
 

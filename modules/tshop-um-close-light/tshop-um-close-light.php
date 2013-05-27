@@ -94,6 +94,7 @@ function getItems($itemNum,$shopCategoryManager,$itemManager){
 ?>
 		
 <div class="close-top">
+
 	<div class="l" style="background:url('http://img03.taobaocdn.com/imgextra/i3/46353909/T2ZiDHXn4aXXXXXXXX_!!46353909.png') no-repeat;"></div>
 		<?php
 		if (count($idList)==0 && $changes!="auto") {

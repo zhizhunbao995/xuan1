@@ -13,6 +13,9 @@ $idList=explode(',',$list);
 $idList=clearnull($idList);
 
 ?>
+<?php 
+	creatTit($_MODULE["title"],$_MODULE["more"]);
+?>
 <ul class="clear">
 <?php 
 if($idList == null){
@@ -30,7 +33,7 @@ for ($i=0; $i < count($itemList); $i++) {
 			}else{
 				echo $uriManager->detailURI($itemList[$i]);
 			}
-			?>" target="_blank"><img src="<?php 
+			?>" target="_blank" class="mouse"><img src="<?php 
 			if($itemList[$i] != ""){
 				echo $itemList[$i]->getPicUrl(430,430)
 			}else{
@@ -40,7 +43,7 @@ for ($i=0; $i < count($itemList); $i++) {
 				<Div class="pop">
 					<div class="opcity" ></div>
 					<div class="pop_info">
-						<Div class="title">
+						<Div class="titlename">
 						<?php 
 							if ($itemList[$i] != "") {
 								echo $itemList[$i]->title;

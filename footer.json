@@ -3,7 +3,9 @@
   "layouts" : [ {
     "type" : "grid-m",
     "modules" : {
-      "main" : [ ]
+      "main" : [ {
+        "moduleID" : "tshop-um-footer"
+      } ]
     }
   } ]
 }

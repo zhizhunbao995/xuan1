@@ -10,7 +10,6 @@
  8.允许使用元素内联style属性
  */
 ?>
-<div class="tb-module tshop-um tshop-um-vision" >
 	<?php
 /**
  * 开始设计PHP页面
@@ -18,8 +17,18 @@
 $imgheight = $_MODULE["imgheight"]>500?500:$_MODULE["imgheight"];
 $imgsrc = $_MODULE["imgsrc"];
 $asrc = $_MODULE["asrc"];
+$color = $_MODULE["color"];
 ?>
-	<a href="<?php echo $asrc;?>"><div style="background-image:url('<?php echo $imgsrc;?>');height:<?php echo $imgheight;?>px;" class="img" ></div>
-	</a>
+<div class="tb-module tshop-um tshop-um-vision" style="height:<?php echo $imgheight;?>px;">
 
+<Div style="width: 2400px;height:<?php echo $imgheight;?>px;position: absolute;z-index: 5;margin-left: -1200px;left: 50%;top: 0;zoom: 1;background:<?=$color;?>;" class="box">
+		<span class="top-shadow"></span>
+	<span class="right-shadow"></span>
+	<span class="left-shadow"></span>
+	<span class="bottom-shadow"></span>
+	<Div>
+		<a href="<?php echo $asrc;?>"><div style="background-image:url('<?php echo $imgsrc;?>');height:<?php echo $imgheight;?>px;" class="img" ></div>
+	</a>
+	</Div>
+</Div>
 </div>
