@@ -29,7 +29,7 @@ function clearArray($a){//去除数组空元素
 	}
 	return $newarray;
 }
-function creatTit ($tit,$more){
+function creatTit ($tit,$more){// 标题
 	if(isset($tit)){
 		$n = $tit;
 		$u = isset($more)?$more:"#";

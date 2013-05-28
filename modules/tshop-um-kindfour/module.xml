@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-kindfour</id>
+    <name>设计师宝贝推荐</name>
+    <file>tshop-um-kindfour.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>亲们!升级了淘宝自带的推荐宝贝，更多个性化设置，样子好看！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

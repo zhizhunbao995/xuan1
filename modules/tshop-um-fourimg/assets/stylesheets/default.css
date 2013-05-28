@@ -23,8 +23,8 @@
 .tshop-um-fourimg  .opcity{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;opacity:0.6;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;}
 .tshop-um-fourimg  .pop_info{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;line-height: 30px;}
 .tshop-um-fourimg a.mouse{text-decoration: none;display: block;width:458px;height: 460px; background: red;zoom:1;position: relative; z-index: 3;}
-.tshop-um-fourimg a.mouse .pop{text-decoration: none;visibility: hidden;display: inline-block;}
-.tshop-um-fourimg a.mouse:hover .pop{text-decoration: none;visibility: visible;}
+.tshop-um-fourimg a.mouse .pop{text-decoration: none;display: inline-block;}
+.tshop-um-fourimg a.mouse:hover .pop{text-decoration: none;}
 .tshop-um-fourimg a.mouse:hover{ background:transparent; text-decoration: none;}
 .tshop-um-fourimg .prices{float: left;color:#FA9CB8;font-family: ""Courier New", Courier, monospace";padding-left: 5px;}
 .tshop-um-fourimg .prices span{font-style: normal;font-weight: bold;color:#FEEFF3;text-decoration: none;float: left;}
