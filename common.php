@@ -34,9 +34,9 @@ function creatTit ($tit,$more){// БъЬт
 		$n = $tit;
 		$u = isset($more)?$more:"#";
 		$html = "<div class='title'>
-				<span class='titleico'></span>
-				<span>{$n}</span>
 				<a href={$u}>More></a>
+				<span class='titleico'></span>
+				<span>{$n}</span>	
 			</div>";
 		echo $html;
 	}

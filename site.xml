@@ -20,6 +20,10 @@
             <css>assets/stylesheets/default/extra.css</css>
             <thumbnail>assets/images/style1.png</thumbnail>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
     </themes>
     <pages>
         <page type="index">

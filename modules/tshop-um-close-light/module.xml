@@ -11,6 +11,9 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="选择您想展示的宝贝">
@@ -19,7 +22,7 @@
                    <option value="auto">系统自动挑选宝贝</option>
                    <option value="hand" selected="selected">手动选择</option>
                </param>
-                <param description="请选择宝贝" formType="itemForm" label="选择宝贝" name="item-s" ptype="item"></param>
+                <param description="请选择宝贝" formType="itemForm" label="选择宝贝" name="item-s" ptype="item"/>
                 <param description="请选择排序类型" formType="select" label="书籍类型" name="types" ptype="text">
                    <option value="_hotsell" selected="selected">热销宝贝降序排序</option>
                    <option value="hotsell">热销宝贝升序排序</option>
@@ -33,7 +36,6 @@
                    <option value="_HotKeep">以热门搜索降序排序</option>                      
                </param>
             </section>
-
         </group>
     </parameters>
 </module>

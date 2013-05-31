@@ -11,18 +11,21 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
-        <parameters>
+    <parameters>
         <group title="选择您想展示的宝贝">
             <section title="请选择宝贝" folded="false">
-                <param description="请选择第一列宝贝,选择3个" formType="itemForm" label="第一列选择宝贝" name="item-0" ptype="item"></param>
-                <param description="请选择第二列宝贝,选择4个" formType="itemForm" label="第二列选择宝贝" name="item-1" ptype="item"></param>
-                <param description="请选择第三列宝贝,选择4个" formType="itemForm" label="第三列选择宝贝" name="item-2" ptype="item"></param>
-                <param description="请选择第四列宝贝,选择4个" formType="itemForm" label="第四列选择宝贝" name="item-3" ptype="item"></param>
+                <param description="请选择第一列宝贝,选择3个" formType="itemForm" label="第一列选择宝贝" name="item-0" ptype="item"/>
+                <param description="请选择第二列宝贝,选择4个" formType="itemForm" label="第二列选择宝贝" name="item-1" ptype="item"/>
+                <param description="请选择第三列宝贝,选择4个" formType="itemForm" label="第三列选择宝贝" name="item-2" ptype="item"/>
+                <param description="请选择第四列宝贝,选择4个" formType="itemForm" label="第四列选择宝贝" name="item-3" ptype="item"/>
             </section>
             <section title="是否需要标题" folded="false">
-                <param description="如果填写文字就会有标题，不填写无标题" formType="text" label="标题名称" name="title" ptype="text"></param>
-                <param description="更多设置，填入连接，最好是搜索页的热门宝贝呦" formType="text" label="更多" name="more" ptype="url"></param>
+                <param description="如果填写文字就会有标题，不填写无标题" formType="text" label="标题名称" name="title" ptype="text"/>
+                <param description="更多设置，填入连接，最好是搜索页的热门宝贝呦" formType="text" label="更多" name="more" ptype="url"/>
             </section>
         </group>
     </parameters>

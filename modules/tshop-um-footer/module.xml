@@ -11,8 +11,11 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
-        <parameters>
+    <parameters>
         <group title="填入你的页尾信息">
             <section title="页尾内容一" folded="false">
                 <param description="输入标题内容" formType="text" label="标题一" name="h-0" ptype="text">关于营业时间</param>

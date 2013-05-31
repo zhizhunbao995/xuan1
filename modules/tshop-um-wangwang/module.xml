@@ -11,6 +11,9 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
     <parameters>
         <group title="客服组">

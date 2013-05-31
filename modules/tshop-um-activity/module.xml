@@ -11,5 +11,17 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
+    <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择宝贝" folded="false">
+                <param description="请填入倒计时的时间，单位为小时，例如:24，代表一天" formType="text" label="选择要抢购的宝贝" name="times" ptype="text">0.001</param>
+                <param description="选择宝贝时最好选择双数" formType="itemForm" label="选择宝贝" name="items" ptype="item"/>
+                <param description="请填入倒计时后的文字，例：亲们!活动已结束！(可选)" formType="text" label="活动结束提醒文字" name="activefont" ptype="text">亲们!活动已结束！</param>
+            </section>
+        </group>
+    </parameters>
 </module>

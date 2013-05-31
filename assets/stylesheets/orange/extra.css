@@ -1,0 +1,25 @@
+#content {
+	background-color:#FEE3D8 ;
+}
+
+#hd {
+	background-color:#FB9394 ;
+	background-image:url(assets/images/tshop-pbsm-shop-custom-banner_orange.png) ;
+	background-repeat:repeat-x ;
+	background-position:top left ;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-style:solid;
+}
+
+.skin-box .skin-box-hd h3 span {
+	font-weight:normal;
+	font-size:12px;
+	font-family:Microsoft YaHei;
+}
+
+.skin-box .skin-box-bd {
+	border-style:solid;
+}

@@ -11,16 +11,18 @@
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>
         </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
     </themes>
-        <parameters>
+    <parameters>
         <group title="选择您想展示的宝贝">
             <section title="请选择宝贝" folded="false">
-                <param description="选择宝贝时最好选择双数" formType="itemForm" label="选择宝贝" name="items" ptype="item"></param>
-             
+                <param description="选择宝贝时最好选择双数" formType="itemForm" label="选择宝贝" name="items" ptype="item"/>
             </section>
             <section title="是否需要标题" folded="false">
                 <param description="如果填写文字就会有标题，不填写无标题" formType="text" label="标题名称" name="title" ptype="text">热门排行</param>
-                <param description="更多设置，填入连接，最好是搜索页的热门宝贝呦" formType="text" label="更多" name="more" ptype="url"></param>
+                <param description="更多设置，填入连接，最好是搜索页的热门宝贝呦" formType="text" label="更多" name="more" ptype="url"/>
             </section>
         </group>
     </parameters>

@@ -82,5 +82,6 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
 }
 ?>
     </ul>
+    <Div class="clear"></Div>
 </div>
 </div>
