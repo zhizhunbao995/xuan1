@@ -7,7 +7,6 @@
  *		3. CSS样式文件中z-index属性值必须在1-99之间
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
-
 .tshop-um-activity {border: 1px solid #FFD9DE;padding: 10px; background: #fff;overflow: hidden; }
 .tshop-um-activity .clear { zoom:1;}
 .tshop-um-activity ul{background: #fff;}
@@ -37,7 +36,6 @@
 .tshop-um-activity .prices strong{font-size: 14px; margin-left: 2px;}
 .tshop-um-activity .xiao{margin: 0px 5px 0px 0px;color: #4E4E4E;float: right;padding: 0px 0px 0px 0px;display: inline;height: 30px;line-height: 30px;}
 .tshop-um-activity .xiao span{margin: 0px 4px;font-weight: bold;color:#FF3979;}
-
 .tshop-um-activity .title{margin-bottom:10px;background: #F98AAB;height: 70px;line-height: 70px; padding:0px 20px 0px 20px;color: #fff;font-size: 25px; font-family: "微软雅黑";}
 .tshop-um-activity .titleico {background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2gfr9Xf8XXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
 .tshop-um-activity .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;}

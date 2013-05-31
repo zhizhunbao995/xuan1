@@ -22,7 +22,7 @@
 .tshop-um-fourimg ul li img{width:458px;height: 460px;}
 .tshop-um-fourimg  .opcity{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;opacity:0.6;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;}
 .tshop-um-fourimg  .pop_info{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;line-height: 30px;}
-.tshop-um-fourimg a.mouse{text-decoration: none;display: block;width:458px;height: 460px; background: red;zoom:1;position: relative; z-index: 3;}
+.tshop-um-fourimg a.mouse{text-decoration: none;display: block;width:458px;height: 460px; background: #fff;zoom:1;position: relative; z-index: 3;}
 .tshop-um-fourimg a.mouse .pop{text-decoration: none;display: inline-block;}
 .tshop-um-fourimg a.mouse:hover .pop{text-decoration: none;}
 .tshop-um-fourimg a.mouse:hover{ background:transparent; text-decoration: none;}
