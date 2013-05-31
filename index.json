@@ -3,27 +3,17 @@
   "layouts" : [ {
     "type" : "grid-m0",
     "modules" : {
-      "main" : [ {
-        "moduleID" : "tshop-um-full-screen"
-      } ]
+      "main" : [ ]
+    }
+  }, {
+    "type" : "grid-m0",
+    "modules" : {
+      "main" : [ ]
     }
   }, {
     "type" : "grid-m0",
     "modules" : {
       "main" : [ {
-        "moduleID" : "tshop-um-wangwang"
-      } ]
-    }
-  }, {
-    "type" : "grid-m0",
-    "modules" : {
-      "main" : [ {
-        "moduleID" : "tshop-um-kindfour"
-      }, {
-        "moduleID" : "tshop-um-fourlist"
-      }, {
-        "moduleID" : "tshop-um-950img-list-show"
-      }, {
         "moduleID" : "tshop-um-tabimg"
       } ]
     }

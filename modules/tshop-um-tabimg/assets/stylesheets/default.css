@@ -8,14 +8,13 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-tabimg { margin-bottom: 10px;border: 1px solid #FFD9DE;padding: 10px 10px 0px 10px;padding-right: 10px; background: #fff; position: relative;z-index: 56;}
+.tshop-um-tabimg { margin-bottom: 10px;border: 1px solid #FFD9DE;padding: 10px 10px 12px 10px;padding-right: 10px; background: #fff; position: relative;z-index: 56;}
 .tshop-um-tabimg .clear{clear: both}
-.tshop-um-tabimg .yslider-stage{float: left;zoom:1;display: inline;}
-.tshop-um-tabimg .yslider-stage{width:408px;height: 405px;overflow: hidden;}
+.tshop-um-tabimg .yslider-stage{float: left;zoom:1;display: inline;width:408px;height: 500px;position: relative; margin-right: 10px;}
 .tshop-um-tabimg .yslider-stage a{display: block;overflow: hidden;}
-
+.tshop-um-tabimg .yslider-stage .contimg{width:408px;height: 500px;}
 .tshop-um-tabimg .yslider-stage a.img{width:408px;height: 408px;display: block;}
-.tshop-um-tabimg .yslider-stick{float: left;width: 510px; margin-left: 10px; }
+.tshop-um-tabimg .yslider-stick{float: left;width: 510px; display: inline;zoom:1;position: relative }
 .tshop-um-tabimg .yslider-stick li{width: 160px; float: left;height: 160px; margin-right: 10px; margin-bottom: 10px; position: relative;}
 .tshop-um-tabimg .yslider-stick li.selected{z-index: 55;-moz-box-shadow:0px 1px 2px #333333; -webkit-box-shadow:0px 1px 2px #333333; box-shadow:0px 1px 2px #333333;}
 .tshop-um-tabimg .yslider-stick li img{width: 160px;height: 160px; }
@@ -28,3 +27,4 @@
 .tshop-um-tabimg .list strong i{font-style: normal;color: #D84E66;text-decoration: none;}
 .tshop-um-tabimg .yslider-stick li a{text-decoration: none;}
 .tshop-um-tabimg .selected .list{display: block;}
+ 
