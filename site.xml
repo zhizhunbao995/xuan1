@@ -24,6 +24,10 @@
             <css>assets/stylesheets/orange/extra.css</css>
             <thumbnail>assets/images/default-thumbnail.png</thumbnail>
         </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
     </themes>
     <pages>
         <page type="index">

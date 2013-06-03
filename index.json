@@ -13,14 +13,14 @@
   }, {
     "type" : "grid-m0",
     "modules" : {
-      "main" : [ {
-        "moduleID" : "tshop-um-tabimg"
-      } ]
+      "main" : [ ]
     }
   }, {
     "type" : "grid-s5m0",
     "modules" : {
-      "sub" : [ ],
+      "sub" : [ {
+        "moduleID" : "tshop-pbsm-other-liangzi"
+      } ],
       "main" : [ ]
     }
   } ]
