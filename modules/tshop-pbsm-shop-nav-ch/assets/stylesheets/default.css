@@ -19,7 +19,7 @@ height: 30px;
 line-height: 30px;
 border: 0;
 background: none;
-color: #2B2B2B;
+color: #fff;
 font-weight: normal;
 font-size: 12px;
 cursor: pointer;
@@ -36,7 +36,7 @@ margin-top: 8px;
 background: none;
 color: #D84E66;
 }
-.tshop-pbsm-shop-nav-ch .all-cats .link .popup-icon{ background: url("assets/images/arrow_menu.png") 0px 5px no-repeat;}
+.tshop-pbsm-shop-nav-ch .all-cats .link .popup-icon{ background: url("assets/images/arrow_menu_dafault.png") 0px 5px no-repeat;}
 .tshop-pbsm-shop-nav-ch .popup-content { background: #FEF1EC; border:1px solid #FFE8DF;}
 .tshop-pbsm-shop-nav-ch .skin-box-bd a {color: #E07285}
 .tshop-pbsm-shop-nav-ch .popup-content .cats-tree .cat-hd-hover{ background: #D66587;opacity:0.9;

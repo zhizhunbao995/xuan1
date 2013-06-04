@@ -21,7 +21,11 @@
       "sub" : [ {
         "moduleID" : "tshop-pbsm-other-liangzi"
       } ],
-      "main" : [ ]
+      "main" : [ {
+        "moduleID" : "tshop-pbsm-shop-full-self-defined"
+      }, {
+        "moduleID" : "tshop-pbsm-shop-item-recommend"
+      } ]
     }
   } ]
 }

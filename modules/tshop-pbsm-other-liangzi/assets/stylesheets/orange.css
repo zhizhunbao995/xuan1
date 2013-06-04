@@ -9,5 +9,9 @@
  */
 
 .tshop-pbsm-other-liangzi {}
+.tshop-pbsm-other-liangzi .skin-box-hd{ background: #e2838d; border: none; padding: 4px 10px 3px;}
+.tshop-pbsm-other-liangzi .skin-box-hd h3 span{color: #FFFFF0;}
+.tshop-pbsm-other-liangzi .time {color: #D84E66;}
+.tshop-pbsm-other-liangzi .num{color: #6C6666;}
 
  

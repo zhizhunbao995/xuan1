@@ -9,11 +9,12 @@
  */
 
 .tshop-pbsm-shop-srch-list {}
-.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail a.item-name{color: #A54505;
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail a.item-name{color: #e17480;
 border-bottom: 1px dashed #EEE;}
 .tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail .attribute .cprice-area .c-price{color: #D84E66;}
-.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4{color: #E07285}
-.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4 span{color: #D33953}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4{color: #e67263}
+.tshop-pbsm-shop-srch-list .grid .item3line1 .item .rates .title h4 span{color: #e67263}
 .tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail{}
 .tshop-pbsm-shop-srch-list .grid .item3line1 .item .detail .attribute .cprice-area .symbol{color: #D84E66;}
+ 
  

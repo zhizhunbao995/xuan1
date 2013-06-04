@@ -9,13 +9,13 @@
  */
 
 .tshop-pbsm-shop-top-list {}
-.tshop-pbsm-shop-top-list .skin-box-bd {border: 1px solid #EE8EA0;}
-.tshop-pbsm-shop-top-list .skin-box-hd{ background: #CB3D67; border: none; }
-.tshop-pbsm-shop-top-list .skin-box-hd h3 span{color: #FFFFF0;}
+.tshop-pbsm-shop-top-list .skin-box-bd {border: 1px solid #fdd5da;}
+.tshop-pbsm-shop-top-list .skin-box-hd{ background: #e2838d; border: none; }
+.tshop-pbsm-shop-top-list .skin-box-hd h3 span{color: #fefef2;}
 .tshop-pbsm-shop-top-list .top-list-tab .selected { background: #fff;}
 .tshop-pbsm-shop-top-list .top-list-tab li {background: #FFF0EB;}
-.tshop-pbsm-shop-top-list .skin-box-bd {color: #E07285;}
-.tshop-pbsm-shop-top-list .skin-box-bd a{color: #A54505;}
+.tshop-pbsm-shop-top-list .skin-box-bd {color: #ef5c6b;}
+.tshop-pbsm-shop-top-list .skin-box-bd a{color: #c46b75;}
 .tshop-pbsm-shop-top-list .panels li .detail .price{color: #D84E66}
 
  
