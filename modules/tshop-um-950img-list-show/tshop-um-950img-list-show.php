@@ -105,7 +105,7 @@ if(!$imgbg){
 					<a href=""></a>
 				</div>
 				<div class="img_info">
-					<div class="info_self_custom">
+					<div class="info_self_custom <?php echo 'custom'.$i?>">
 						New
 					</div>
 					<div class="float_l count_hot" >

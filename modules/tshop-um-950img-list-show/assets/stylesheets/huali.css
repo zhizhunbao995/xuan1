@@ -23,6 +23,9 @@
  .tshop-um-950img-list-show .xuan-imglist ul li .img_info span{color:#E07285;}
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price span{ font-size:12px;}
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_self_custom{ background:#D84E66; float:left; height:50px; line-height:50px; width:50px; text-align:center; color:#fff;   font-size:15px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom0{background: #38c5bf;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom1{background: #f47564;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom2{background: #01a5ec;}
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .count_hot{ padding-top:5px;}
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales{ color:#E07285;padding-left:10px;  }
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales strong{ font-weight:bold; font-size:12px; color:#D33953; font-family:"Arial Black", Gadget, sans-serif; padding-left:3px;}

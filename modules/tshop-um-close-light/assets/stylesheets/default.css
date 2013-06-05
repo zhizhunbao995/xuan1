@@ -23,8 +23,8 @@ opacity: 0.8;color: #fff; height: 40px;color: #fff; visibility: hidden; z-index:
 .tshop-um-close-light .close-pop .pop:hover span{visibility:visible;}
 .tshop-um-close-light .close-pop .pop:hover i{ visibility: hidden;}
 .tshop-um-close-light .close-pop .pop b{ font-weight: normal;}
-.tshop-um-close-light .close-pop .pop .price{float: left; background: #D84E66; height: 40px; width: 60px; line-height: 40px; text-align: center;overflow: hidden;}
-.tshop-um-close-light .close-pop .pop .count{  width: 110px; height: 20px;overflow:hidden; color: #F98166; float: left; text-align: right;padding-left: 5px;padding-right: 2px;}
+.tshop-um-close-light .close-pop .pop .price{float: left; background: #f68c98; height: 40px; width: 60px; line-height: 40px; text-align: center;overflow: hidden;}
+.tshop-um-close-light .close-pop .pop .count{  width: 110px; height: 20px;overflow:hidden; color: #f68c98; float: left; text-align: right;padding-left: 5px;padding-right: 2px;}
 .tshop-um-close-light .close-pop .pop .name{ width: 110px; height: 20px;overflow:hidden;color: #Fff; float: left;padding-left: 5px;text-align: right;padding-right: 2px;}
 .tshop-um-close-light .close-pop a:hover{ text-decoration: none;}
 
