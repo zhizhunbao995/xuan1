@@ -18,11 +18,12 @@
     height: 0;
     visibility: hidden;
 }
-.tshop-um-wall-water {background: #fff;margin-bottom: 10px;overflow: hidden; border: 1px solid #FFD9DE;}
+.tshop-um-wall-water {background: #fff;margin-bottom: 10px;overflow: hidden; border: 1px solid #fdd5da;}
 .tshop-um-wall-water .clear{clear:both;padding: 10px 0px 0px 10px;}
 .tshop-um-wall-water .list_wall{float: left;width: 230px; margin-right: 4px;}
-.tshop-um-wall-water .list_wall li{ vertical-align: top;padding: 4px; margin-bottom: 10px;overflow: hidden; margin-right: 4px;border: 1px solid #FDE3E3;-moz-box-shadow:0px 1px 1px #7A7A7A; -webkit-box-shadow:0px 1px 1px #7A7A7A; box-shadow:0px 1px 1px #7A7A7A; }
-.tshop-um-wall-water .list_wall li.first{ background: url("assets/images/first.png") no-repeat;height: 260px;padding: 0px;border: none;}
+.tshop-um-wall-water .list_wall li{ vertical-align: top;overflow: hidden; margin-right: 4px;background:url("assets/images/shadow.png") bottom no-repeat;padding-bottom:10px; }
+.tshop-um-wall-water .list_wall li .shadow{margin-bottom: 10px;padding: 4px;border: 1px solid #FDE3E3; padding-bottom:  }
+.tshop-um-wall-water .list_wall li.first{ background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2BoAcXc8aXXXXXXXX_!!46353909.png") no-repeat ;height: 260px;padding: 0px;border: none;}
 .tshop-um-wall-water .list_wall li.height310 img{width: 310px;}
 .tshop-um-wall-water .itemimg {width: 216px;overflow: hidden;position: relative;}
 .tshop-um-wall-water .imgbox{background-image:url("http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg") no-repeat;}

@@ -20,6 +20,14 @@
     </themes>
     <parameters>
         <group title="选择您想展示的宝贝">
+            <section title="请选择做上角广告图片" folded="false">
+            <param ptype="text" name="imgad" label="左上角广告图" formType="range" description="请选择图片,可以用我们提供的两张也可以自定义一张！">
+                   <option  selected="selected" value="http://img04.taobaocdn.com/imgextra/i4/46353909/T2BoAcXc8aXXXXXXXX_!!46353909.png">广告1</option>
+                   <option  value="http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png">广告2</option>
+                   <option   value="custom">自定义</option>
+            </param>
+            <param description="填入你的广告图片！尺寸226*260." formType="text" label="自定义广告图片" name="customimg" ptype="url"/>
+            </section>
             <section title="请选择宝贝" folded="false">
                 <param description="请选择第一列宝贝,选择3个" formType="itemForm" label="第一列选择宝贝" name="item-0" ptype="item"/>
                 <param description="请选择第二列宝贝,选择4个" formType="itemForm" label="第二列选择宝贝" name="item-1" ptype="item"/>

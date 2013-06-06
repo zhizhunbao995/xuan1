@@ -45,7 +45,7 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
             	<strong>RMB:<i><?=$itemRmb;?></i></strong>
             	<strong>最近30天售出 :<i><?=$sold;?> </i>件</strong>
             	<strong>收藏人气 : <i><?=$ccount;?></i></strong>
-            	<i><img src="<?php echo 'https://chart.googleapis.com/chart?cht=qr&chs=80x80&choe=UTF-8&chld=L|2&chl='.$itemurl_m ;?>" /></i>
+            	<div class="twoma"><img src="<?php echo 'https://chart.googleapis.com/chart?cht=qr&chs=80x80&choe=UTF-8&chld=L|2&chl='.$itemurl_m ;?>" /></div>
             </Span>
         </div>
 <?php 

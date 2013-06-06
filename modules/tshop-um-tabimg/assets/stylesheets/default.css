@@ -18,11 +18,11 @@
 .tshop-um-tabimg .yslider-stick li{width: 160px; float: left;height: 160px; margin-right: 10px; margin-bottom: 10px; position: relative;}
 .tshop-um-tabimg .yslider-stick li.selected{z-index: 55;-moz-box-shadow:0px 1px 2px #333333; -webkit-box-shadow:0px 1px 2px #333333; box-shadow:0px 1px 2px #333333;}
 .tshop-um-tabimg .yslider-stick li img{width: 160px;height: 160px; }
-.tshop-um-tabimg .cainfo{position: relative; background: #FEC0CA;display: block;color: #fff; margin-top: 5px;overflow: hidden;line-height: 1.8;padding: 3px 0px 0px 5px;height: 85px;}
-.tshop-um-tabimg .cainfo i{position:absolute;bottom: 0px;right: 5px;line-height: 1.5;}
-.tshop-um-tabimg .cainfo strong{display: block;}
-.tshop-um-tabimg .cainfo strong i{font-style: normal;color: #FCFCD3;}
-.tshop-um-tabimg .cainfo a{color: #FCFCD3;}
+.tshop-um-tabimg .cainfo{position: relative; background: #FD96A2;display: block;color: #fcfbca; margin-top: 5px;overflow: hidden;line-height: 1.8;padding: 3px 0px 0px 5px;height: 85px;}
+.tshop-um-tabimg .cainfo .twoma{position:absolute;bottom: 0px;right: 5px;line-height: 1.5;}
+.tshop-um-tabimg .cainfo strong{display: block;font-weight: normal;font-style: normal;}
+.tshop-um-tabimg .cainfo strong i{font-weight: normal;color: #fff;font-style: normal;}
+.tshop-um-tabimg .cainfo a{color: #fff;}
 .tshop-um-tabimg .list{position: absolute;bottom: -40px;height: 40px; left: 0px;width: 100%; background: #fff;display: none;color: #000;-moz-box-shadow:0px 0px 1px #333333; -webkit-box-shadow:0px 0px 1px #333333; box-shadow:0px 1px 2px #333333;}
 .tshop-um-tabimg .list strong {display: block;font-weight: normal;padding-left: 5px;}
 .tshop-um-tabimg .list strong i{font-style: normal;color: #D84E66;text-decoration: none;}

@@ -26,7 +26,7 @@
                    <option value="560*560">560*560</option>
                    <option value="620*620">620*620</option>
                 </param>
-                <param description="请选择9个宝贝" formType="itemForm" label="选择展示宝贝" name="baobei" ptype="item">14,16</param>
+                <param description="请选择9个宝贝" formType="itemForm" label="选择展示宝贝" name="baobei" ptype="item"></param>
             </section>
         </group>
     </parameters>

@@ -1,6 +1,7 @@
 <div class="tb-module tshop-um tshop-um-wall-water">
 <?php
 $four = array();
+$imgad = $_MODULE["imgad"];
 $four[0] = array("","","");//Ä¬ÈÏ¿ÕÊý×é
 $four[1] = array("","","","");
 $four[2] = array("","","","");
@@ -36,7 +37,7 @@ for ($j=0; $j < count($four); $j++) {
 <ul class='list_wall'>
 <?php 	
 	if($j == 0){
-		echo "<li class='first'></li>";
+		echo "<li class='first' style='background:url({$imgad}) no-repeat;'></li>";
 	}
 ?>
 <?php 
@@ -64,6 +65,7 @@ for ($k=0; $k < $creattimes ; $k++) {
 				$itemRmb = $itemList[$k]->price;
 			}
 		?>
+		<div class="shadow">
 			<div class="itemimg">
 				<div class="imgbox"><img src="<?php echo $imgurl; ?>"> </div>
 				<div data-like='{
@@ -124,6 +126,7 @@ for ($k=0; $k < $creattimes ; $k++) {
 			       }
 			   }
 			   ?>
+			</div>
 			</div>
 		</li>
 

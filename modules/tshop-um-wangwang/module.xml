@@ -26,8 +26,8 @@
                      <option value="hide">隐藏</option>
                 </param>
                 <param description="多个昵称用 | 间隔，限制3个旺旺号超出的不显示" formType="text" label="昵称" name="w_name1" ptype="text">Vicesy|Apple|LiYa</param>
-                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id1" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
-                <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img1" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
+                <param description="多个旺旺帐号用 | 间隔，昵称对应上呦" formType="text" label="旺旺号" name="w_id1" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
+                <param description="多个图片地址用 | 间隔，尺寸33*33" formType="text" label="客服头像" name="w_img1" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
             <section title="第二组客服" folded="false">
                 <param description="" formType="range" label="" name="s_2" ptype="text">
@@ -35,8 +35,8 @@
                      <option value="hide">隐藏</option>
                 </param>
                 <param description="多个昵称用 | 间隔，限制3个旺旺号超出的不显示" formType="text" label="昵称" name="w_name2" ptype="text">呜呜|Apple|LiYa</param>
-                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id2" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
-                <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img2" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
+                <param description="多个旺旺帐号用 | 间隔，昵称对应上呦" formType="text" label="旺旺号" name="w_id2" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
+                <param description="多个图片地址用 | 间隔，尺寸33*33" formType="text" label="客服头像" name="w_img2" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
             <section title="第三组客服" folded="false">
                 <param description="" formType="range" label="" name="s_3" ptype="text">
@@ -44,8 +44,17 @@
                      <option value="hide">隐藏</option>
                 </param>
                 <param description="多个昵称用 | 间隔，限制3个旺旺号超出的不显示" formType="text" label="昵称" name="w_name3" ptype="text">窝窝|Apple|LiYa</param>
-                <param description="多个旺旺帐号用 | 间隔，需与昵称对应上" formType="text" label="旺旺号" name="w_id3" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
-                <param description="多个图片地址用 | 间隔，需与昵称对应上" formType="text" label="客服头像" name="w_img3" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
+                <param description="多个旺旺帐号用 | 间隔，昵称对应上呦" formType="text" label="旺旺号" name="w_id3" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
+                <param description="多个图片地址用 | 间隔，尺寸33*33" formType="text" label="客服头像" name="w_img3" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
+            </section>
+            <section title="第四组客服" folded="false">
+                <param description="" formType="range" label="" name="s_4" ptype="text">
+                     <option value="show" selected="selected">显示</option>
+                     <option value="hide">隐藏</option>
+                </param>
+                <param description="多个昵称用 | 间隔，限制3个旺旺号超出的不显示" formType="text" label="昵称" name="w_name4" ptype="text">窝窝|Apple|LiYa</param>
+                <param description="多个旺旺帐号用 | 间隔，昵称对应上呦" formType="text" label="旺旺号" name="w_id4" ptype="text">宣辕剑|宣辕剑|宣辕剑</param>
+                <param description="多个图片地址用 | 间隔，尺寸33*33" formType="text" label="客服头像" name="w_img4" ptype="text">http://img04.taobaocdn.com/imgextra/i4/46353909/T2MrTJXbXaXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2wMYJXjdXXXXXXXXX_!!46353909.jpg|http://img03.taobaocdn.com/imgextra/i3/46353909/T2OBDIXhxaXXXXXXXX_!!46353909.jpg</param>
             </section>
         </group>
     </parameters>
