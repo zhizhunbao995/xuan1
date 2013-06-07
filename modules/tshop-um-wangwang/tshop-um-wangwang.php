@@ -39,7 +39,8 @@ for ($i=1; $i < count($items)+1; $i++) {
 			for($j=0;$j<count($newarray[$c][0]);$j++){//看是否第一个 name的个数的循环
 	?>	
 			<div class="w_item">	
-				<a class="w_name" href="#" >
+				<a class="w_name" target="_blank" 
+				href="<? echo "http://www.taobao.com/webww/ww.php?ver=3&touid=".mb_convert_encoding($newarray[$c][1][$j], 'utf-8', 'gb2312')."&siteid=cntaobao&status=2&charset=utf-8"?>" >
 				<img src="<? echo $newarray[$c][2][$j]; ?>" class="w_img">
 				<span><? echo $newarray[$c][0][$j]; ?></span></a>
 				<? echo $uriManager->supportTag($newarray[$c][1][$j],"客服",2); ?>

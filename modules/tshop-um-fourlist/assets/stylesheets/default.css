@@ -27,7 +27,7 @@
 .tshop-um-fourlist  a.mouse{text-decoration: none;display: block;width:224px;height: 360px; background:transparent;zoom:1;position: relative; z-index: 3; cursor: pointer;}
 .tshop-um-fourlist  a.mouse .pop{text-decoration: none;visibility: hidden;}
 .tshop-um-fourlist  a.mouse:hover .pop{text-decoration: none;visibility: visible;}
-.tshop-um-fourlist  a.mouse:hover{ background:transparent; text-decoration: none;}
+.tshop-um-fourlist  a.mouse:hover{ background:#fff; text-decoration: none;}
 .tshop-um-fourlist .prices{color:#fff;font-family: ""Courier New", Courier, monospace";}
 .tshop-um-fourlist .prices i{font-style: normal;font-weight: bold;color:#FEEFF3;text-decoration: none;}
 .tshop-um-fourlist .prices strong{font-size: 14px; margin-left: 2px;}

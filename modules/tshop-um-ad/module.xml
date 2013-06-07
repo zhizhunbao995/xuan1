@@ -4,9 +4,9 @@
     <name>广告横幅</name>
     <file>tshop-um-ad.php</file>
     <thumbnail>../../assets/images/imgshow.png</thumbnail>
-    <description></description>
+    <description>适合任意尺寸的广告，950 750 190呦！</description>
     <requiredCache>true</requiredCache>
-    <supportedWidth>750,950</supportedWidth>
+    <supportedWidth>190,550,750,950</supportedWidth>
     <themes default="时尚女装女鞋百搭模版">
         <theme name="时尚女装女鞋百搭模版">
             <css>assets/stylesheets/default.css</css>

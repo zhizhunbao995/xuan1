@@ -1,5 +1,6 @@
 <div class="tb-module tshop-um tshop-um-wall-water">
 <?php
+$massage = array();
 $four = array();
 $imgad = $_MODULE["imgad"];
 $four[0] = array("","","");//默认空数组
@@ -9,14 +10,16 @@ $four[3] = array("","","","");
 $normalTitle ="还没有宝贝呀！赶快进行添加";
 for ($i=0; $i < 4 ; $i++) { 
 	$list = $_MODULE["item-".$i];
-	$idList=explode(',',$list);
-	$idList=clearnull($idList);
+	$jsonlist = $rateManager->parse($list);//变为对象
+	$idList = $jsonlist->keySet();//变为 宝贝列表
+	$massage[] = $jsonlist;
 	for ($t=0; $t < count($four[$i]); $t++) { 
 		if($idList != null && $idList[$t] !=null){
-			$four[$i][$t] = $idList[$t]
+			$four[$i][$t] = $idList[$t];
 		}
 	}
 }
+
 ?>
 <?php 
 	creatTit($_MODULE["title"],$_MODULE["more"]);
@@ -78,17 +81,6 @@ for ($k=0; $k < $creattimes ; $k++) {
 				class="sns-widget">喜欢 </div> 
 			</div>
 			<div class="item-title"><a href="<?php echo $itemurl;?>"><?php echo $itemtitle;?></a>
-				<?php 
-				// if ($keyid) {
-				// 	$count = $rateManager->queryRateCount($keyid);
-			 //       if($count){
-			 //          echo "好评数：".$count->goodCount;
-			 //          echo "中评数：".$count->normalCount;
-			 //          echo "差评数：".$count->badCount;
-			 //       }
-				// }
-
-				?>
 			</div>
 			<div class="item-buy">
 				<Span class="prices"><i>RMB</i><strong><?php echo $itemRmb;?></strong></Span>
@@ -106,27 +98,31 @@ for ($k=0; $k < $creattimes ; $k++) {
 				}'
 				class="sns-widget">分享</div>
 			</div>
+			<?
+				 $rates = $massage[$j]->get($keyid);
+				if (count($rates) != 0){
+			?>
 			<div class="recomd">
 				<?php
-					$t = 0;
-					if ($keyid != 0){
-				    $rates = $rateManager->queryAuctionRates($keyid);
+				
+				    //$rates = $rateManager->queryAuctionRates($keyid);
 			       foreach($rates as $rate)
 			       {
 				?>
 			      <Div class="imguser">
-			      	<img src="http://img01.taobaocdn.com/imgextra/i1/46353909/T2GLYKXiNXXXXXXXXX_!!46353909.jpg">   
+			      	<a href="<?=$rate->raterUrl;?>" target="_blank"><img src="<?=$rate->getRaterAvatar('60');?>">  </a> 
 			      </Div> 
 			      <Div class="feedinfo">
-			      	<a><?=$rate->raterNick;?>:</a>
+			      	<a href="<?=$rate->raterUrl;?>" target="_blank"><?=$rate->raterNick;?>:</a>
 			      	<?=$rate->feedback;?>
 			      </Div>   			         
 			   <?php 
-			   break;
 			       }
-			   }
 			   ?>
 			</div>
+			<?php
+				}
+			?>
 			</div>
 		</li>
 

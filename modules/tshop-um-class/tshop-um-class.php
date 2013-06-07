@@ -6,52 +6,61 @@
 		<a href="<?php echo $_MODULE['class-img'];?>"><img src="<?php echo $_MODULE['class-url'];?>"></a>
 	</div>
 </div>
-<?php
- $subCategories = $shopCategoryManager->queryAll();
 
- $l = $shopCategoryManager->queryById($subCategories[0]->id);
-//echo $uriManager->shopIntrURI();//域名
- //echo $uriManager->shopCategoryURI($l);
- //echo $uriManager->searchURI();
- $num = 0;
-// 类目选择器输出
- $itemString=$_MODULE['t-item'];
- $idList=json_decode($itemString);
-foreach ($idList as  $value) {
-	$shopCategory =  $shopCategoryManager->queryById($value->{rid});
-	echo $shopCategory->{uri}."      ";
-	$array = explode(",",$value->{childIds});
-	foreach ($array as $id) {
-		$subShopCategory =  $shopCategoryManager->queryById($id);
-		//echo  $uriManager->shopCategoryURI ($subShopCategory);
-	}
-}
-?>
 <ul>
-<?php 
-	foreach($subCategories as $shopCategory){
-	 $sublist = $shopCategoryManager->querySubCategories($shopCategory->id);
-	 if($num++<6){//限制5次
-	
+<?php
+ $subCategories = $shopCategoryManager->queryAll();//一级类目
+ $l = $shopCategoryManager->queryById($subCategories[0]->id);
+ $shopCategory = array();
+// 类目选择器输出
+$itemString=$_MODULE['t-item'];
+$idList=json_decode($itemString);
+
+if(empty($idList)){
+	foreach ($subCategories as $vid) {
+		$sublist = $shopCategoryManager->querySubCategories($vid->id);//一级下面的子类目
+		$qone =  $shopCategoryManager->queryById($vid->id);
 ?>
 	<li>
-		<div class="first-m"><a href="<?=$uriManager->shopCategoryURI($shopCategory);?>"><?php 	 echo $shopCategory->name;?></a></div>
+		<div class="first-m"><a href="<?=$uriManager->shopCategoryURI($qone);?>"><?php 	 echo $qone->name;?></a></div>
+		<? if(count($sublist) != 0) {
+		?>
 		<div class="first-sub">
 			<?php
-					foreach($sublist as $sub){
-	  				$l = $shopCategoryManager->queryById($sub->id);
+				foreach ($sublist as $sub) {
+			?>
+			<a href="<?=$uriManager->shopCategoryURI($sub);?>"><?php echo $sub->name;?></a>
+			<?php
+				}
+			}
+			?>
+		</div>
+	</li>
+<?		
+	}
+}else{
+	foreach($idList as $shopCategory){
+	$one =  $shopCategoryManager->queryById($shopCategory->{rid});
+	$childlist = explode(",",$shopCategory->{childIds});
+?>
+
+	<li>
+		<div class="first-m"><a href="<?=$uriManager->shopCategoryURI($one);?>"><?php 	 echo $one->name;?></a></div>
+		<div class="first-sub">
+			<?php
+				foreach($childlist as $sub){
+	  				$l = $shopCategoryManager->queryById($sub);
 			?>
 
-			<a href="<?=$uriManager->shopCategoryURI($l);?>"><?php echo $sub->name;?></a>
+			<a href="<?=$uriManager->shopCategoryURI($l);?>"><?php echo $l->name;?></a>
 			<?php
 				}
 			?>
 		</div>
 	</li>
 <?php
-	
-}
 	}
+}
 ?>
 </ul>
 </div>

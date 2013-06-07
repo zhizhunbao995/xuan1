@@ -7,11 +7,18 @@ $empty = array("","","","","","","","","");
 $list = $_MODULE["baobei"];
 $idList=explode(',',$list);
 $idList=clearnull($idList);
-$itemList=$itemManager->queryByIds($idList,"_hotsell");
-$output = array_slice($empty, 0, 9-count($itemList));
-$itemList = array_merge($itemList,$output);
-$resize = $_MODULE["resize"];
-$Sizeimg = explode('*',$resize);
+if(count($idList) == 0){
+	$itemList = $empty;
+
+}else{
+	$itemList=$itemManager->queryByIds($idList,"_hotsell");
+	$output = array_slice($empty, 0, 9-count($itemList));
+		$itemList = array_merge($itemList,$output);
+
+}
+	$resize = $_MODULE["resize"];
+	$Sizeimg = explode('*',$resize);
+
 ?>
 <div class="J_TWidget" data-widget-type="Slide" 
 data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','activeTriggerCls':'selected',
@@ -25,6 +32,7 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
 		$imgurl_m = $itemList[$i]->getPicUrl($Sizeimg[0],$Sizeimg[1]);	
 		$itemRmb = $itemList[$i]->price;
 		$sold = $itemList[$i]->soldCount;
+		$keyid = $itemList[$i]->id;
 		$ccount = $itemList[$i]->collectedCount;
 	}
 	else{
@@ -33,12 +41,23 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
 		$imgurl_m = "http://img02.taobaocdn.com/imgextra/i2/46353909/T2QQ6.Xc0XXXXXXXXX_!!46353909.png";	
 		$itemRmb = "888.00";
 		$sold = "0";
+		$keyid = "0";
 		$ccount = "0";
 	}
 	
 ?>
         <div class="contimg">
-            <a target="_blank" style="background:url(<?=$imgurl_m;?>) no-repeat center center;" class="img">
+            <a target="_blank" style="background:url(<?=$imgurl_m;?>) no-repeat center center;" class="img" href="<?=$itemurl_m?>">
+				<div data-sharebtn='{
+					skinType:3,
+					type:"item",
+					key:<?php echo $keyid;?>,
+					comment:"这个宝贝很赞哦，分享给大家！",
+					pic:"<?php echo $itemurl_m;?>",
+					client_id:68,
+					isShowFriend:false
+				}'
+				class="sns-widget">分享</div>
             </a>
             <Span class="cainfo">
             	<a href="<?=$itemurl_m;?>" target="_blank"><?=$itemtitle_m;?></a>
