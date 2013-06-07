@@ -8,16 +8,17 @@
  *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
  */
 
-.tshop-um-950img-list-show {margin-bottom:10px; border: 1px solid #FFD9DE; padding:10px; background: #fff;}
+.tshop-um-950img-list-show {margin-bottom:10px; border: 1px solid #FFD9DE; padding:10px;padding-right: 0px;	 background: #fff;}
 .tshop-um-950img-list-show .float_l{ float:left;}
 .tshop-um-950img-list-show .float_r{ float:right;}
 .tshop-um-950img-list-show .position{ position:absolute;}
 .tshop-um-950img-list-show .clear{*zoom:1;}
 .tshop-um-950img-list-show .clear:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
 .tshop-um-950img-list-show .xuan-imglist{}
-.tshop-um-950img-list-show .xuan-imglist ul{ overflow:hidden; width:970px;}
-.tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:13px; position:relative;width: 300px; background:#FFF0EB;display: inline;border: overflow: hidden; }
-.tshop-um-950img-list-show .xuan-imglist ul li .img_info{ position:absolute; bottom:0px;height:50px; background:#FFF0EB; width:100%; }
+.tshop-um-950img-list-show .xuan-imglist ul{ zoom:1;width: 100%;}
+.tshop-um-950img-list-show .xuan-imglist ul:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:12px; position:relative;width: 300px; background:#FFF0EB;display: inline;overflow: hidden; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info{ position:absolute; bottom:-1px;height:50px; background:#FFF0EB; width:100%; }
 .tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price{ color:#d5595f; font-size:24px;  height:50px; padding-top:17px; padding-right:5px;
  right:0px; top:0px;}
  .tshop-um-950img-list-show .xuan-imglist ul li .img_info span{color:#E07285;}
