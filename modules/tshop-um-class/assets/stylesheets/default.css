@@ -19,7 +19,9 @@
 .tshop-um-class ul li .first-sub a{color: #f68c98; margin-left: 10px; }
 .tshop-um-class ul li .first-sub a:hover{text-decoration: underline;}
 .tshop-um-class  .class-title{ float: left; width: 260px;}
-.tshop-um-class  .class-title h1{height: 50px; line-height: 50px; text-indent: 10px; margin-bottom: 3px;background: #EE5279; color: #fff;font-size: 16px;}
+.tshop-um-class  .class-title h1{height: 50px; line-height: 50px; text-indent: 10px; margin-bottom: 3px;background: #fc8d9a; color: #fff;font-size: 16px;}
+.tshop-um-class  .class-title h1 .hot{float: right;font-size: 12px;}
+.tshop-um-class  .class-title h1 .hot a{ padding-right: 5px;color: #fff;}
 .tshop-um-class  .class-title .class-img{width: 260px;height: 160px; overflow:hidden;}
 
 /*=750*/

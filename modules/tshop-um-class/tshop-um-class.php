@@ -1,7 +1,24 @@
+<?php 
+	
+	$itemf=$_MODULE['class-font'];
+	$itemfu=$_MODULE['class-font-url'];
+	$itemfu = explode("|", $itemfu);
+	$font = explode("|", $itemf);
+
+
+?>
 <div class="tb-module tshop-um tshop-um-class">
 	<div class="clear">
 	<div class="class-title">
-	<h1>±¦±´ÍÆ¼ö</h1>
+	<h1>±¦±´ÍÆ¼ö
+		<div class="hot">
+			<?
+				foreach ($font as $key => $value) {
+					echo "<a href=".$itemfu[$key].">{$value}</a>";
+				}
+			?>
+		</div>
+	</h1>
 	<div class="class-img">
 		<a href="<?php echo $_MODULE['class-img'];?>"><img src="<?php echo $_MODULE['class-url'];?>"></a>
 	</div>
