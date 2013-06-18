@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-salecustom</id>
+    <name>自由促销模块</name>
+    <file>tshop-um-salecustom.php</file>
+    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <description>个性化的定制促销模块，小清新呀！赶快应用此模块！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+     <parameters>
+        <group title="点击区域设置">
+            <section title="区域设置" folded="false">
+                <param description="展示区高度,默认为560" formType="text" label="区域边框颜色" name="height" ptype="text"></param>
+                <param description="设置背景图，用于在上面做连接" formType="text" label="背景图地址" name="imgurl" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2uqb5XnFaXXXXXXXX_!!46353909.jpg</param>
+                <param description="区域边框设置" formType="text" label="区域边框颜色" name="color" ptype="text">#ff0000</param>
+            </section>
+            <section title="点击区域设置" folded="false">
+                <param description="输入点击区域大小('长*宽')" formType="text" label="区域大小" name="box0-width" ptype="text">300,500</param>
+                <param description="输入点击区域位置('x*y')" formType="text" label="区域位置" name="box0-fixed" ptype="text">20,20</param>
+                <param description="输入点击区域跳转地址" formType="text" label="区域位置" name="box0-url" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png</param>
+            </section>
+            <section title="点击区域设置" folded="false">
+                <param description="输入点击区域大小('长*宽')" formType="text" label="区域大小" name="box1-width" ptype="text">200,200</param>
+                <param description="输入点击区域位置('x*y')" formType="text" label="区域位置" name="box1-fixed" ptype="text">30,450</param>
+                <param description="输入点击区域跳转地址" formType="text" label="区域位置" name="box1-url" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png</param>
+            </section>
+            <section title="点击区域设置" folded="false">
+                <param description="输入点击区域大小('长*宽')" formType="text" label="区域大小" name="box2-width" ptype="text">200,200</param>
+                <param description="输入点击区域位置('x*y')" formType="text" label="区域位置" name="box2-fixed" ptype="text">30,680</param>
+                <param description="输入点击区域跳转地址" formType="text" label="区域位置" name="box2-url" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png</param>
+            </section>
+            <section title="点击区域设置" folded="false">
+                <param description="输入点击区域大小('长*宽')" formType="text" label="区域大小" name="box3-width" ptype="text">200,200</param>
+                <param description="输入点击区域位置('x*y')" formType="text" label="区域位置" name="box3-fixed" ptype="text">250,680</param>
+                <param description="输入点击区域跳转地址" formType="text" label="区域位置" name="box3-url" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png</param>
+            </section>
+            <section title="点击区域设置" folded="false">
+                <param description="输入点击区域大小('长*宽')" formType="text" label="区域大小" name="box4-width" ptype="text">200,200</param>
+                <param description="输入点击区域位置('x*y')" formType="text" label="区域位置" name="box4-fixed" ptype="text">250,430</param>
+                <param description="输入点击区域跳转地址" formType="text" label="区域位置" name="box4-url" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png</param>
+            </section>
+        </group>
+    </parameters>
+</module>
