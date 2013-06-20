@@ -22,14 +22,15 @@
         <group title="店招设置">
             <section title="方法一：店招名称,写字就能设置" folded="false">
                 <param description="" formType="range" label="" name="shop_font" ptype="text">
-                     <option value="show">显示</option>
-                     <option value="hide" selected="selected">隐藏</option>
+                     <option value="show" selected="selected">显示</option>
+                     <option value="hide" >隐藏</option>
                 </param>
                 <param description="设置一个好听的名字可以增加你的人气！" formType="text" label="店铺名称" name="shop_name" ptype="text">SHOP Xuan</param>
                 <param description="针对性的描述可以吸引客户的需求！默认为'店铺介绍'" formType="text" label="店铺描述" name="shop_name_in" ptype="text"/>
             </section>
-            <section title="方法二：店招名称,自己动手设计图" folded="false">
+            <section title="方法二：店招名称,自己动手设计logo" folded="false">
                 <param description="请输入一个图片地址作为店招。" formType="text" label="图片地址" name="shop_logo_url" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2_C5YXmxbXXXXXXXX_!!46353909.png</param>
+                <param description="店招图片大小,宽*高。例(400*120)" formType="text" label="图片地址" name="shop_logo_width" ptype="text"></param>
             </section>
             <section folded="true">
                 <param description="点击你的店名希望跳转到哪里！" formType="text" label="跳转地址" name="shop_url" ptype="url"/>

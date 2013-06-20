@@ -9,7 +9,8 @@
  */
 
 .tshop-um-self-custom-banner { height:120px; background: #FA6D98; overflow: hidden; width: 100%;}
-.tshop-um-self-custom-banner .shop-name{ float: left;width: 300px;  overflow:hidden;height:120px;}
+.tshop-um-self-custom-banner .shop-name{ float: left; overflow:hidden;height:120px;}
+.tshop-um-self-custom-banner .shop-img-logo{overflow: hidden;}
 .tshop-um-self-custom-banner .shop-name strong{ font-size: 35px; font-family:"Arial"; color: #fff; display: block; line-height: 1.4; padding-top: 20px;}
 .tshop-um-self-custom-banner .shop-name span{ font-size: 12px;color: #fff;display: block;line-height: 1.2;}
 .tshop-um-self-custom-banner .btn-list{ float: right;height: 120px; width: 315px;}

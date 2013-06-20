@@ -20,9 +20,11 @@ if(count($idList) == 0){
 	$Sizeimg = explode('*',$resize);
 
 ?>
+
 <div class="J_TWidget" data-widget-type="Slide" 
 data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','activeTriggerCls':'selected',
-'delay':0.1,'effect':'fade','easing':'easeOutStrong','duration':0.8,'autoplay':false}">
+'delay':0.1,'effect':'<?php echo $_MODULE['effect']; ?>','easing':'easeOutStrong','duration':0.8,'autoplay':false}">
+  <div class="posi">
     <div class="yslider-stage">
 <?php 
 	for ($i=0; $i < count($itemList); $i++) {
@@ -71,6 +73,7 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
 	}
 ?>
     </div>
+</div>
     <ul class="yslider-stick">
 <?php 
 	for ($k=0; $k < count($itemList); $k++) { 
@@ -103,5 +106,6 @@ data-widget-config="{'navCls':'yslider-stick','contentCls':'yslider-stage','acti
 ?>
     </ul>
     <Div class="clear"></Div>
+
 </div>
 </div>

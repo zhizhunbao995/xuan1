@@ -4,7 +4,9 @@
     "type" : "grid-m0",
     "modules" : {
       "main" : [ {
-        "moduleID" : "tshop-um-class"
+        "moduleID" : "tshop-um-kindfour"
+      }, {
+        "moduleID" : "tshop-um-kindfour"
       } ]
     }
   }, {

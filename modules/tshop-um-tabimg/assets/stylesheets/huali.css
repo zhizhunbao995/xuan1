@@ -11,7 +11,7 @@
 .tshop-um-tabimg .clear{clear: both}
 .tshop-um-tabimg .yslider-stage{float: left;zoom:1;display: inline;width:408px;height: 500px;position: relative; margin-right: 10px;}
 .tshop-um-tabimg .yslider-stage a{display: block;overflow: hidden;}
-.tshop-um-tabimg .yslider-stage .contimg{width:408px;height: 500px;}
+.tshop-um-tabimg .yslider-stage .contimg{width:408px;height: 500px;overflow: hidden;}
 .tshop-um-tabimg .yslider-stage a.img{width:408px;height: 408px;display: block;}
 .tshop-um-tabimg .yslider-stick{float: left;width: 510px; display: inline;zoom:1;position: relative }
 .tshop-um-tabimg .yslider-stick li{width: 160px; float: left;height: 160px; margin-right: 10px; margin-bottom: 10px; position: relative;}
@@ -28,4 +28,5 @@
 .tshop-um-tabimg .yslider-stick li a{text-decoration: none;}
 .tshop-um-tabimg .selected .list{display: block;}
 
- 
+.tshop-um-tabimg .sns-sharebtn-custom{position: absolute;font-size: 0px;bottom:5px; right:5px;cursor: pointer; background: url("http://img01.taobaocdn.com/imgextra/i1/46353909/T27ZkdXkRXXXXXXXXX_!!46353909.png") no-repeat; width: 136px; height: 16px;}
+.tshop-um-tabimg .posi{position:relative;width:408px;height:500px;overflow:hidden;float:left;margin-right:10px;}

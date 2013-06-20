@@ -3,7 +3,7 @@
     <id>tshop-um-salecustom</id>
     <name>自由促销模块</name>
     <file>tshop-um-salecustom.php</file>
-    <thumbnail>../../assets/images/default-thumbnail.png</thumbnail>
+    <thumbnail>../../assets/images/free.png</thumbnail>
     <description>个性化的定制促销模块，小清新呀！赶快应用此模块！</description>
     <requiredCache>true</requiredCache>
     <supportedWidth>950</supportedWidth>
@@ -18,10 +18,10 @@
             <css>assets/stylesheets/huali.css</css>
         </theme>
     </themes>
-     <parameters>
+    <parameters>
         <group title="点击区域设置">
             <section title="区域设置" folded="false">
-                <param description="展示区高度,默认为560" formType="text" label="区域边框颜色" name="height" ptype="text"></param>
+                <param description="展示区高度,默认为560" formType="text" label="区域边框颜色" name="height" ptype="text"/>
                 <param description="设置背景图，用于在上面做连接" formType="text" label="背景图地址" name="imgurl" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2uqb5XnFaXXXXXXXX_!!46353909.jpg</param>
                 <param description="区域边框设置" formType="text" label="区域边框颜色" name="color" ptype="text">#ff0000</param>
             </section>
