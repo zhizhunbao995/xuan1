@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-tabimg</id>
+    <name>格子图展示架</name>
+    <file>tshop-um-tabimg.php</file>
+    <thumbnail>../../assets/images/6gezi.png</thumbnail>
+    <description>鼠标滑过预览大图，展示大图。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择宝贝" folded="false">
+                <param description="这个是大图显示的尺寸，默认读取宝贝480尺寸" formType="range" label="选择大图尺寸(可选)" name="resize" ptype="text">
+                   <option value="480*480" selected="selected">480*480</option>
+                   <option value="560*560">560*560</option>
+                   <option value="620*620">620*620</option>
+                </param>
+                <param description="请选择9个宝贝" formType="itemForm" label="选择展示宝贝" name="baobei" ptype="item">7</param>
+                <param description="请选择动画类型" formType="range" label="动画设置" name="effect" ptype="text">
+                    <option value="fade" selected="selected">渐影渐显</option>
+                   <option value="scrollx" >左右滚动</option>
+                   <option value="scrolly" >上下滚动</option>
+                   <option value="none">无切换效果</option>
+                </param>
+            </section>
+        </group>
+    </parameters>
+</module>

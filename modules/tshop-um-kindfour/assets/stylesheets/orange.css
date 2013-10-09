@@ -1,0 +1,34 @@
+/**
+ * 模块：tshop-um-kindfour 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(橙色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-kindfour"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-kindfour {/*border: 1px solid #FFD9DE;*/ background: #fafafa; padding: 10px; padding-right: 0px;zoom:1; margin-bottom: 10px;padding-bottom: 0px;}
+.tshop-um-kindfour .clear { zoom:1;}
+.tshop-um-kindfour .clear:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-kindfour ul li{float: left;width:224px;height: 390px; margin-bottom: 10px;display: inline; margin-right: 10px;overflow: hidden; position: relative; background: #F2F2F2;} 
+.tshop-um-kindfour ul li img{width:224px;height: 360px;}
+.tshop-um-kindfour  .opcity{display:block;z-index: 1;position: absolute;top: 0px; left: 0px; width: 228px;height: 360px;opacity:0.6;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;}
+.tshop-um-kindfour  .pop_info{position: absolute;bottom: 0px; left: 0px; width: 208px;background:#28292d;padding:0px 10px;z-index: 2;overflow: hidden;line-height: 1.8; }
+.tshop-um-kindfour  .titlename{color: #fff;}
+.tshop-um-kindfour  a.mouse{text-decoration: none;display: block;width:224px;height: 360px; background:#fff;zoom:1;position: relative; z-index: 3; cursor: pointer;}
+.tshop-um-kindfour  a.mouse .pop{text-decoration: none;visibility: hidden;}
+.tshop-um-kindfour  a.mouse:hover .pop{text-decoration: none;visibility: visible;}
+.tshop-um-kindfour  a.mouse:hover{ background:transparent; text-decoration: none;}
+.tshop-um-kindfour .prices{color:#fff;font-family: ""Courier New", Courier, monospace";float: left;padding: 0px 5px 0px 5px; background: #433336;height: 30px;line-height: 30px;}
+.tshop-um-kindfour .prices i{font-style: normal;font-weight: bold;color:#FEEFF3;text-decoration: none;}
+.tshop-um-kindfour .prices strong{font-size: 14px; margin-left: 2px;}
+.tshop-um-kindfour .xiao{margin: 0px 5px 0px 0px;color: #4E4E4E;float: right;padding: 0px 0px 0px 0px;display: inline;height: 30px;line-height: 30px;}
+.tshop-um-kindfour .xiao span{margin: 0px 4px;font-weight: bold;color:#FF3979;}
+
+.tshop-um-kindfour .title{margin-bottom:10px;/*background: #F98AAB;*/height: 70px;line-height: 70px; padding:0px 20px 0px 0px;color: #343539;font-size: 25px; font-family: "微软雅黑";border-bottom: 1px solid #e7e6e6;}
+.tshop-um-kindfour .titleico {background: url("http://img03.taobaocdn.com/imgextra/i3/46353909/T2KHkjXhtaXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
+.tshop-um-kindfour .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;}
+
+
+ 

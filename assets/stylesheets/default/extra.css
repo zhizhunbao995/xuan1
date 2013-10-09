@@ -1,0 +1,19 @@
+#content {
+	background-color:#fde2e5 ;
+}
+
+#hd {
+	background-color:#f7c8cd ;
+	background-image:url(assets/images/tshop-pbsm-shop-custom-banner_huali.png) ;
+	background-repeat:repeat-x ;
+	background-position:;
+	margin-bottom:0px;
+}
+
+.skin-box .skin-box-hd {
+	border-style:none;
+}
+
+.skin-box .skin-box-bd {
+	border-style:none;
+}

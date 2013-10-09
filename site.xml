@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GBK"?>
+<site>
+    <id>48509820d76644a48b5593a370cf550d</id>
+    <name>Xuan高级服装模版</name>
+    <author name="xuanxuan" url="http://www.yourwebsite.com" wangwang="宣辕剑"></author>
+    <thumbnail>assets/images/style1.png</thumbnail>
+    <language>PHP</language>
+    <version>1.0.0</version>
+    <apply-sites>2</apply-sites>
+    <apply-user></apply-user>
+    <template-type>2</template-type>
+    <change-notes>[提示：请添加模板修改日志]</change-notes>
+    <description>做更好的女士用品，做更好的女人！特别的SDK模版！</description>
+    <global>
+        <header>header.json</header>
+        <footer>footer.json</footer>
+    </global>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default/extra.css</css>
+            <thumbnail>assets/images/style1.png</thumbnail>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali/extra.css</css>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+        </theme>
+    </themes>
+    <pages>
+        <page type="index">
+            <name>首页</name>
+            <file>index.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加首页的描述]</description>
+        </page>
+        <page type="detail">
+            <name>默认宝贝详情页</name>
+            <file>detail.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝详情页的描述]</description>
+        </page>
+        <page type="list">
+            <name>默认宝贝分类页</name>
+            <file>list.json</file>
+            <thumbnail>assets/images/default-thumbnail.png</thumbnail>
+            <description xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">[提示：请添加默认宝贝分类页的描述]</description>
+        </page>
+    </pages>
+</site>

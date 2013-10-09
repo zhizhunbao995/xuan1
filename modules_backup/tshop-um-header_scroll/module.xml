@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-header_scroll</id>
+    <name>首页顶部滚播</name>
+    <file>tshop-um-header_scroll.php</file>
+    <thumbnail>../../assets/images/b.png</thumbnail>
+    <description>950和750自动或手动加载宝贝。</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="默认">
+        <theme name="默认">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+    </themes>
+</module>

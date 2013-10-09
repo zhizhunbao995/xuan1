@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-ad</id>
+    <name>广告横幅</name>
+    <file>tshop-um-ad.php</file>
+    <thumbnail>../../assets/images/imgshow.png</thumbnail>
+    <description>适合任意尺寸的广告，950 750 190呦！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>190,550,750,950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="添加你的图片">
+            <section title="图片高度设置" folded="false">
+                <param description="请填入图片地址,可以再淘宝图片管理中获取图片地址！" formType="text" label="图片地址" name="img" ptype="text">http://img01.taobaocdn.com/imgextra/i1/46353909/T2sXYtXb4XXXXXXXXX_!!46353909.jpg</param>
+                <param description="默认高度88" formType="text" label="高度设置" name="img_height" ptype="text">88</param>
+            </section>
+        </group>
+    </parameters>
+</module>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-wall-water</id>
+    <name>蘑菇街瀑布流</name>
+    <file>tshop-um-wall-water.php</file>
+    <thumbnail>../../assets/images/pubu.png</thumbnail>
+    <description>仿蘑菇街的瀑布流布局呦！完全自定义，还有分享和关注呦！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择做上角广告图片" folded="false">
+                <param description="请选择图片,可以用我们提供的两张也可以自定义一张！" formType="range" label="左上角广告图" name="imgad" ptype="text">
+                   <option value="http://img04.taobaocdn.com/imgextra/i4/46353909/T2BoAcXc8aXXXXXXXX_!!46353909.png" selected="selected">广告1</option>
+                   <option value="http://img01.taobaocdn.com/imgextra/i1/46353909/T2GGZdXiRXXXXXXXXX_!!46353909.png">广告2</option>
+                   <option value="custom">自定义</option>
+            </param>
+                <param description="填入你的广告图片！尺寸226*260." formType="text" label="自定义广告图片" name="customimg" ptype="url"></param>
+            </section>
+            <section title="请选择宝贝" folded="false">
+                <param description="请选择第一列宝贝,选择3个" formType="itemRateForm" label="第一列选择宝贝" name="item-0" ptype="itemRate">[{"comments":[{"comment":"衣服手感不错，个人觉得当裙子穿有点短，（我的身高163cm）容易粘毛毛，这个款应该会起球，拿到手的已经开始有起球的迹象了。","date":"2012.11.20","raterId":58701644,"raterNick":"sapphire0918","picURLs":["http://img.taobaocdn.com/bao/uploaded/i1/10014265/T1r7EaXX0fXXaH.X6X.JPEG_400x400.jpg","http://img.taobaocdn.com/bao/uploaded/i1/10014257/T13XoaXoVeXXaH.X6X.JPEG_400x400.jpg"],"raterStar":11,"raterStarImg":null,"commentId":12581322859},{"comment":"这衣服真的很大件，身材丰满的人穿很好，店主态度很好。","date":"2012.10.11","raterId":58701644,"raterNick":"syingzhang","picURLs":[],"raterStar":11,"raterStarImg":null,"commentId":18120612034}],"itemId":22},{"comments":[],"itemId":21},{"comments":[],"itemId":20}]</param>
+                <param description="请选择第二列宝贝,选择4个" formType="itemRateForm" label="第二列选择宝贝" name="item-1" ptype="itemRate">[{"comments":[],"itemId":22},{"comments":[],"itemId":21},{"comments":[],"itemId":20}]</param>
+                <param description="请选择第三列宝贝,选择4个" formType="itemRateForm" label="第三列选择宝贝" name="item-2" ptype="itemRate"/>
+                <param description="请选择第四列宝贝,选择4个" formType="itemRateForm" label="第四列选择宝贝" name="item-3" ptype="itemRate"/>
+            </section>
+            <section title="是否需要标题" folded="false">
+                <param description="如果填写文字就会有标题，不填写无标题" formType="text" label="标题名称" name="title" ptype="text"></param>
+                <param description="更多设置，填入连接，最好是搜索页的热门宝贝呦" formType="text" label="更多" name="more" ptype="url"></param>
+            </section>
+        </group>
+    </parameters>
+</module>

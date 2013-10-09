@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-footer</id>
+    <name>页尾展示</name>
+    <file>tshop-um-footer.php</file>
+    <thumbnail>../../assets/images/footer.png</thumbnail>
+    <description>页面尾部，展示您的店铺信息，物流信息，购买提醒等信息</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="填入你的页尾信息">
+            <section title="页尾内容一" folded="false">
+                <param description="输入标题内容" formType="text" label="标题一" name="h-0" ptype="text">关于营业时间</param>
+                <param description="内容介绍" formType="text" label="内容介绍" name="c-0" ptype="text">如果对产品有什么不满意，请不要确认收获，马上联系我们！</param>
+            </section>
+            <section title="页尾内容二" folded="true">
+                <param description="标题二" formType="text" label="标题二" name="h-1" ptype="text">关于物流</param>
+                <param description="内容介绍" formType="text" label="内容介绍" name="c-1" ptype="text">如果对产品有什么不满意，请不要确认收获，马上联系我们！</param>
+            </section>
+            <section title="页尾内容三" folded="true">
+                <param description="标题三" formType="text" label="标题三" name="h-2" ptype="text">关于退换</param>
+                <param description="内容介绍" formType="text" label="内容介绍" name="c-2" ptype="text">如果对产品有什么不满意，请不要确认收获，马上联系我们！</param>
+            </section>
+            <section title="页尾内容四" folded="true">
+                <param description="标题四" formType="text" label="标题四" name="h-3" ptype="text">关于产品</param>
+                <param description="内容介绍" formType="text" label="内容介绍" name="c-3" ptype="text">如果对产品有什么不满意，请不要确认收获，马上联系我们！</param>
+            </section>
+        </group>
+    </parameters>
+</module>

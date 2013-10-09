@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-class</id>
+    <name>宝贝分类</name>
+    <file>tshop-um-class.php</file>
+    <thumbnail>../../assets/images/class.png</thumbnail>
+    <description>展示你宝贝的分类信息，可以作为分类导航使用！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>750,950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="推荐宝贝">
+            <section title="宝贝输入项" folded="false">
+                <param description="每写入一个文字以|隔开" formType="text" label="热销文字" name="class-font" ptype="url">低折扣|热门货|淑女装</param>
+                <param description="销文字连接" formType="text" label="热销文字连接" name="class-font-url" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2KSEXXlRaXXXXXXXX_!!46353909.png|http://img03.taobaocdn.com/imgextra/i3/46353909/T2KSEXXlRaXXXXXXXX_!!46353909.png|http://img03.taobaocdn.com/imgextra/i3/46353909/T2KSEXXlRaXXXXXXXX_!!46353909.png</param>
+                <param description="类目左边广告图片" formType="text" label="广告图片地址" name="class-url" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2KSEXXlRaXXXXXXXX_!!46353909.png</param>
+                <param description="输入一个宝贝图片" formType="text" label="广告图片跳转地址" name="class-img" ptype="url">http://img03.taobaocdn.com/imgextra/i3/46353909/T2KSEXXlRaXXXXXXXX_!!46353909.png</param>
+                <param description="如果不选择任何类目，系统会自动加载。" formType="categoryForm" label="选择类目" name="t-item" ptype="category">[ {&#xd;
+                  "childIds" : "618519510,618519511,618519512",&#xd;
+                  "rid" : "618519509"&#xd;
+                }, {&#xd;
+                  "childIds" : "618374071",&#xd;
+                  "rid" : "618374070"&#xd;
+                }, {&#xd;
+                  "childIds" : "618367089,618367090,618367091,618367092,627061116,627061117",&#xd;
+                  "rid" : "618367088"&#xd;
+                }, {&#xd;
+                  "childIds" : "610292882,629548965,629548966,629548967",&#xd;
+                  "rid" : "610292881"&#xd;
+                }, {&#xd;
+                  "childIds" : "141,142",&#xd;
+                  "rid" : "140"&#xd;
+                }, {&#xd;
+                  "childIds" : "131,132,133,134",&#xd;
+                  "rid" : "130"&#xd;
+                }, {&#xd;
+                  "childIds" : "121,122,123,124,125,126,127,128,129",&#xd;
+                  "rid" : "120"&#xd;
+                } ]</param>
+            </section>
+        </group>
+    </parameters>
+</module>

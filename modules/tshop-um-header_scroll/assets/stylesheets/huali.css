@@ -1,0 +1,27 @@
+/**
+ * 模块：tshop-um-header_scroll 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(浅色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-header_scroll"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+.tshop-um-header_scroll { margin-bottom:10px; border: 1px solid #FFD9DE;}
+
+.tshop-um-header_scroll .mall-content{ position:relative; overflow:hidden;}
+
+.tshop-um-header_scroll .mall-content img{ width:950px; height:100%;}
+
+.tshop-um-header_scroll .ks-switchable-nav{ position:absolute; bottom:0px;width:100%;border-top:1px solid #000; overflow:hidden; background:#222;opacity:0.8;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80); padding-right:2px; z-index:10;   }
+
+.tshop-um-header_scroll  .ks-switchable-nav li{ float:left; width:20%; display:inline;zoom:1; color:#fff;line-height:35px; height:35px; border-left:1px solid #000; margin-left:-1px; text-indent:10px; overflow:hidden; cursor:pointer;}
+
+.tshop-um-header_scroll  .ks-switchable-nav li.ks-active{ background:#000;}
+
+/*限制在750中显示*/
+
+.grid-s5m0 .col-main .tshop-um-header_scroll .mall-content img, .grid-m0s5 .col-main .tshop-um-header_scroll .mall-content img{ width:750px;}
+
+
+ 
