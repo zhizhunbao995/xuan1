@@ -1,0 +1,39 @@
+/**
+ * 模块：tshop-um-fourimg 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(橙色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-fourimg"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-fourimg {border: 1px solid #FFD9DE; background: #fff; padding: 10px; padding-right: 0px; margin-bottom: 10px;}
+
+.tshop-um-fourimg ul {zoom:1;overflow: hidden;}
+.tshop-um-fourimg  ul:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.tshop-um-fourimg ul li{float: left;width:458px;height: 460px; margin-bottom: 10px;display: inline; margin-right: 10px;overflow: hidden; position: relative; background: #EEE8D8;} 
+.tshop-um-fourimg ul li img{width:458px;height: 460px;}
+.tshop-um-fourimg  .opcity{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;opacity:0.6;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;}
+.tshop-um-fourimg  .pop_info{position: absolute;bottom: 0px; left: 0px; width: 458px;height: 30px;line-height: 30px;}
+.tshop-um-fourimg a.mouse{text-decoration: none;display: block;width:458px;height: 460px; background: #fff;zoom:1;position: relative; z-index: 3;}
+.tshop-um-fourimg a.mouse .pop{text-decoration: none;display: inline-block;}
+.tshop-um-fourimg a.mouse:hover .pop{text-decoration: none;}
+.tshop-um-fourimg a.mouse:hover{ background:transparent; text-decoration: none;}
+.tshop-um-fourimg .prices{float: left;color:#FA9CB8;font-family: ""Courier New", Courier, monospace";padding-left: 5px;}
+.tshop-um-fourimg .prices span{font-style: normal;font-weight: bold;color:#FEEFF3;text-decoration: none;float: left;}
+.tshop-um-fourimg .prices strong{font-size: 14px; margin-left: 2px;float: left;}
+.tshop-um-fourimg .xiao{float: right;margin: 0px 5px 0px 0px;color: #fff;}
+.tshop-um-fourimg .xiao span{margin: 0px 4px;font-weight: bold;color:#FA9CB8;}
+
+.tshop-um-fourimg .title{margin-bottom:10px;background: #F98AAB;height: 70px;line-height: 70px; padding:0px 20px 0px 20px;color: #fff;font-size: 25px; font-family: "微软雅黑";}
+.tshop-um-fourimg .titleico {background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2gfr9Xf8XXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
+.tshop-um-fourimg .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;display: inline;}
+
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-shop-item-recommend</id>
+    <name>宝贝推荐</name>
+    <thumbnail>http://img01.taobaocdn.com/tps/i1/T14xgGXbFaXXcj5F6l-64-64.gif</thumbnail>
+    <description>[提示：请为系统模块{宝贝推荐}添加描述信息]</description>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+</module>

@@ -1,0 +1,40 @@
+/**
+ * 模块：tshop-um-950img-list-show 
+ * 皮肤（主题）: 默认
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-950img-list-show"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-950img-list-show {margin-bottom:10px; border: 1px solid #FFD9DE; padding:10px;padding-right: 0px;	 background: #fff;}
+.tshop-um-950img-list-show .float_l{ float:left;}
+.tshop-um-950img-list-show .float_r{ float:right;}
+.tshop-um-950img-list-show .position{ position:absolute;}
+.tshop-um-950img-list-show .clear{*zoom:1;}
+.tshop-um-950img-list-show .clear:after {clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-950img-list-show .xuan-imglist{}
+.tshop-um-950img-list-show .xuan-imglist ul{ zoom:1;width: 100%;}
+.tshop-um-950img-list-show .xuan-imglist ul:after{clear: both;display: block;line-height: 0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:12px; position:relative;width: 300px; background:#FFF0EB;display: inline;overflow: hidden; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info{ position:absolute; bottom:-1px;height:50px; background:#FFF0EB; width:100%; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price{ color:#d5595f; font-size:24px;  height:50px; padding-top:17px; padding-right:5px;
+ right:0px; top:0px;}
+ .tshop-um-950img-list-show .xuan-imglist ul li .img_info span{color:#E07285;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_price span{ font-size:12px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_self_custom{ background:#D84E66; float:left; height:50px; line-height:50px; width:50px; text-align:center; color:#fff;   font-size:15px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom0{background: #38c5bf;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom1{background: #f47564;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .custom2{background: #01a5ec;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .count_hot{ padding-top:5px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales{ color:#9f9d9d;padding-left:10px;  }
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_sales strong{ font-weight:bold; font-size:12px; color:#D33953; font-family:"Arial Black", Gadget, sans-serif; padding-left:3px;}
+.tshop-um-950img-list-show .xuan-imglist ul li .img_info .info_title{ color:#c46b75; font-size:12px; padding-left:10px;margin-bottom:6px; height:18px; overflow:hidden; width:180px; }
+.tshop-um-950img-list-show .xuan-imglist ul li .img-box{ height: 335px; overflow:hidden;width: 100%; }
+.tshop-um-950img-list-show .title{margin-bottom:10px;background: #e2838d;height: 70px;line-height: 70px; padding:0px 20px 0px 20px;color: #fff;font-size: 25px; font-family: "微软雅黑";}
+.tshop-um-950img-list-show .titleico {background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2gfr9Xf8XXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
+.tshop-um-950img-list-show .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;}
+ /*=750*/
+.grid-s5m0 .col-main .tshop-um-950img-list-show .xuan-imglist ul li, .grid-m0s5 .col-main .tshop-um-950img-list-show .xuan-imglist ul li{ float:left;  margin-right:13px; position:relative;width: 233px; background:#FFF0EB;display: inline;border: overflow: hidden; }
+.grid-s5m0 .col-main .tshop-um-950img-list-show .xuan-imglist ul li .img_info .count_hot, .grid-m0s5 .col-main .tshop-um-950img-list-show .xuan-imglist ul li .img_info .count_hot{ padding-top:5px;width: 135px;}

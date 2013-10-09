@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-other-taoke-recharge</id>
+    <name>充值中心（淘宝客）</name>
+    <thumbnail>http://img03.taobaocdn.com/tps/i3/T1JQqEXdpnXXXXXXXX-52-52.png</thumbnail>
+    <description>[提示：请为系统模块{充值中心（淘宝客）}添加描述信息]</description>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+</module>

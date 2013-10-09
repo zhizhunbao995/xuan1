@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-um-close-light</id>
+    <name>开关灯效果</name>
+    <file>tshop-um-close-light.php</file>
+    <thumbnail>../../assets/images/close.png</thumbnail>
+    <description>开关灯效果!使您的宝贝展示更有活力！</description>
+    <requiredCache>true</requiredCache>
+    <supportedWidth>950</supportedWidth>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+    <parameters>
+        <group title="选择您想展示的宝贝">
+            <section title="请选择宝贝" folded="false">
+                <param description="选宝贝方式，默认为系统自动获取" formType="range" label="选择宝贝方式" name="changes" ptype="text">
+                   <option value="auto">系统自动挑选宝贝</option>
+                   <option value="hand" selected="selected">手动选择</option>
+               </param>
+                <param description="请选择宝贝" formType="itemForm" label="选择宝贝" name="item-s" ptype="item">7,8,9,10,11,12,13,14,15</param>
+                <param description="请选择排序类型" formType="select" label="书籍类型" name="types" ptype="text">
+                   <option value="_hotsell" selected="selected">热销宝贝降序排序</option>
+                   <option value="hotsell">热销宝贝升序排序</option>
+                   <option value="coefp">人气宝贝升序排序</option>
+                   <option value="_coefp">人气宝贝降序排序</option>
+                   <option value="price">以宝贝价格升序排序</option>
+                   <option value="_price">以宝贝价格降序排序 </option>
+                   <option value="newOn">以最新上架宝贝升序排序</option>
+                   <option value="_newOn">以最新上架宝贝降序排序</option>
+                   <option value="HotKeep">以热门搜索升序排序</option>
+                   <option value="_HotKeep">以热门搜索降序排序</option>                      
+               </param>
+            </section>
+        </group>
+    </parameters>
+</module>

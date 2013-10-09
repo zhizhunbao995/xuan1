@@ -1,0 +1,33 @@
+/**
+ * 模块：tshop-um-tabimg 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(橙色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-tabimg"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-tabimg { margin-bottom: 10px;border: 1px solid #FFD9DE;padding: 10px 10px 12px 10px;padding-right: 10px; background: #fff; position: relative;z-index: 56;}
+.tshop-um-tabimg .clear{clear: both}
+.tshop-um-tabimg .yslider-stage{float: left;zoom:1;display: inline;width:408px;height: 500px;position: relative; margin-right: 10px;}
+.tshop-um-tabimg .yslider-stage a{display: block;overflow: hidden;}
+.tshop-um-tabimg .yslider-stage .contimg{width:408px;height: 500px;overflow: hidden;}
+.tshop-um-tabimg .yslider-stage a.img{width:408px;height: 408px;display: block;}
+.tshop-um-tabimg .yslider-stick{float: left;width: 510px; display: inline;zoom:1;position: relative }
+.tshop-um-tabimg .yslider-stick li{width: 160px; float: left;height: 160px; margin-right: 10px; margin-bottom: 10px; position: relative;}
+.tshop-um-tabimg .yslider-stick li.selected{z-index: 55;-moz-box-shadow:0px 1px 2px #333333; -webkit-box-shadow:0px 1px 2px #333333; box-shadow:0px 1px 2px #333333;}
+.tshop-um-tabimg .yslider-stick li img{width: 160px;height: 160px; }
+.tshop-um-tabimg .cainfo{position: relative; background: #FEC0CA;display: block;color: #fff; margin-top: 5px;overflow: hidden;line-height: 1.8;padding: 3px 0px 0px 5px;height: 85px;}
+.tshop-um-tabimg .cainfo i{position:absolute;bottom: 0px;right: 5px;line-height: 1.5;}
+.tshop-um-tabimg .cainfo strong{display: block;}
+.tshop-um-tabimg .cainfo strong i{font-style: normal;color: #FCFCD3;}
+.tshop-um-tabimg .cainfo a{color: #FCFCD3;}
+.tshop-um-tabimg .list{position: absolute;bottom: -40px;height: 40px; left: 0px;width: 100%; background: #fff;display: none;color: #000;-moz-box-shadow:0px 0px 1px #333333; -webkit-box-shadow:0px 0px 1px #333333; box-shadow:0px 1px 2px #333333;}
+.tshop-um-tabimg .list strong {display: block;font-weight: normal;padding-left: 5px;}
+.tshop-um-tabimg .list strong i{font-style: normal;color: #D84E66;text-decoration: none;}
+.tshop-um-tabimg .yslider-stick li a{text-decoration: none;}
+.tshop-um-tabimg .selected .list{display: block;}
+ 
+.tshop-um-tabimg .sns-sharebtn-custom{position: absolute;font-size: 0px;bottom:5px; right:5px;cursor: pointer; background: url("http://img01.taobaocdn.com/imgextra/i1/46353909/T27ZkdXkRXXXXXXXXX_!!46353909.png") no-repeat; width: 136px; height: 16px;}
+.tshop-um-tabimg .posi{position:relative;width:408px;height:500px;overflow:hidden;float:left;margin-right:10px;}

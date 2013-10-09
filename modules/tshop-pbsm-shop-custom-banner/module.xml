@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-shop-custom-banner</id>
+    <name>店铺招牌</name>
+    <thumbnail>http://img04.taobaocdn.com/tps/i4/T1P7IKXgVbXXcj5F6l-64-64.gif</thumbnail>
+    <description>自定义店招商标及你自己的广告语！</description>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+</module>

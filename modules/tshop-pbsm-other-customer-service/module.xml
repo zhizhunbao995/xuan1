@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="GBK"?>
+<module>
+    <id>tshop-pbsm-other-customer-service</id>
+    <name>客服中心</name>
+    <thumbnail>http://img04.taobaocdn.com/tps/i4/T1iDZGXlJXXXcj5F6l-64-64.gif</thumbnail>
+    <description>[提示：请为系统模块{客服中心}添加描述信息]</description>
+    <themes default="时尚女装女鞋百搭模版">
+        <theme name="时尚女装女鞋百搭模版">
+            <css>assets/stylesheets/default.css</css>
+        </theme>
+        <theme name="时尚女装女鞋百搭模版(橙色)">
+            <css>assets/stylesheets/orange.css</css>
+        </theme>
+        <theme name="时尚女装女鞋模版(优雅浅色)">
+            <css>assets/stylesheets/huali.css</css>
+        </theme>
+    </themes>
+</module>

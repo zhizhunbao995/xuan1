@@ -1,0 +1,24 @@
+/**
+ * 模块：tshop-um-footer 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(橙色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-footer"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-footer { background: #FFF2EE;border: 1px solid #FFD9DE;padding: 20px 10px 20px 10px; margin-bottom: 10px;}
+.tshop-um-footer .clear{zoom:1}
+.tshop-um-footer .clear:after{    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;}
+.tshop-um-footer ul li{float: left;width: 220px; margin-right: 12px;}
+.tshop-um-footer ul li h1{color: #85505A; height: 25px;line-height: 25px;padding-left: 60px;}
+.tshop-um-footer li img{width: 50px;height: 50px;}
+.tshop-um-footer li div.itemico span{float: left; margin-top: -20px;}
+.tshop-um-footer li div.itemico p{float: left;width: 160px;color: #75726D;padding-left: 10px;text-indent: -9999}
+
+ 

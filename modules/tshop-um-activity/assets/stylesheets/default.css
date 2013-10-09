@@ -1,0 +1,43 @@
+/**
+ * 模块：tshop-um-activity 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-activity"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+.tshop-um-activity {border: 1px solid #FFD9DE;padding: 10px; background: #fff;overflow: hidden; }
+.tshop-um-activity .clear { zoom:1;}
+.tshop-um-activity ul{background: #fff;}
+.tshop-um-activity .clear:after {clear: both;display: block;line-height: 0;height:0;font-size: 0;content: '.';visibility: hidden;}
+.tshop-um-activity .dataleft{  position: relative;margin-bottom: 10px;overflow: hidden; zoom:1;}
+.tshop-um-activity .cright{float: right;}
+.tshop-um-activity .dataleft .sale{background: #e2838d url(assets/images/data_bg.png) no-repeat 30px 0px;height: 70px; margin-bottom: 10px;}
+.tshop-um-activity .dataleft .ks-countdown-run {font-size: 15px;font-family: "微软雅黑";color: #fff; padding-left: 320px;display: block;}
+.tshop-um-activity .dataleft .ks-countdown-run span{font-size: 40px;font-family: "Arial, Helvetica, sans-serif";font-weight: bold;top: 75px; margin: 0px 3px;}
+.tshop-um-activity .ks-d{left: 175px;}
+.tshop-um-activity .ks-h{left: 240px;}
+.tshop-um-activity .ks-m{left: 308px;}
+.tshop-um-activity .ks-countdown-run{margin-bottom: 10px;height: 70px;}
+.tshop-um-activity .ks-countdown-end{background:#000;color:#fff;display:block;font-size: 40px;font-weight: bold;z-index: 4;position: absolute;top: 0px; left: 0px; width: 100%;height: 600px;top:80px;opacity:0.6;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;zoom:1;vertical-align: middle;}
+.tshop-um-activity .ks-countdown-end span{text-align: center;display: inline-block;zoom:1;width: 90%;vertical-align: middle; margin-top: 40px;}
+.tshop-um-activity ul li{float: left;width:224px;height: 390px; margin-bottom: 10px;display: inline; margin-right: 10px;overflow: hidden; position: relative; background: #F2F2F2;} 
+.tshop-um-activity ul li img{width:224px;height: 360px;}
+.tshop-um-activity  .opcity{display:block;z-index: 1;position: absolute;top: 0px; left: 0px; width: 228px;height: 360px;opacity:0.6;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); background: #000;}
+.tshop-um-activity  .pop_info{position: absolute;bottom: 0px; left: 0px; width: 208px;background:#FF3979;padding:0px 10px;z-index: 2;overflow: hidden;line-height: 1.8; }
+.tshop-um-activity  .titlename{color: #fff;}
+.tshop-um-activity  a.mouse{text-decoration: none;display: block;width:224px;height: 360px; background:#fff;zoom:1;position: relative; z-index: 3; cursor: pointer;}
+.tshop-um-activity  a.mouse .pop{text-decoration: none;visibility: hidden;}
+.tshop-um-activity  a.mouse:hover .pop{text-decoration: none;visibility: visible;}
+.tshop-um-activity  a.mouse:hover{ background:transparent; text-decoration: none;}
+.tshop-um-activity .prices{color:#fff;font-family: ""Courier New", Courier, monospace";float: left;padding: 0px 5px 0px 5px; background: #f88e9a;height: 30px;line-height: 30px;}
+.tshop-um-activity .prices i{font-style: normal;font-weight: bold;color:#FEEFF3;text-decoration: none;}
+.tshop-um-activity .prices strong{font-size: 14px; margin-left: 2px;}
+.tshop-um-activity .xiao{margin: 0px 5px 0px 0px;color: #4E4E4E;float: right;padding: 0px 0px 0px 0px;display: inline;height: 30px;line-height: 30px;}
+.tshop-um-activity .xiao span{margin: 0px 4px;font-weight: bold;color:#FF3979;}
+
+.tshop-um-activity .title{margin-bottom:10px;background: #F98AAB;height: 70px;line-height: 70px; padding:0px 20px 0px 20px;color: #fff;font-size: 25px; font-family: "微软雅黑";}
+.tshop-um-activity .titleico {background: url("http://img04.taobaocdn.com/imgextra/i4/46353909/T2gfr9Xf8XXXXXXXXX_!!46353909.png") no-repeat; _background: none;float: left;width: 23px;height: 24px; margin-top: 25px;margin-right: 10px;}
+.tshop-um-activity .title a{float: right;font-size: 20px;color: #fff;text-decoration: none;}
+

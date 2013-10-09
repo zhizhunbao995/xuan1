@@ -1,0 +1,27 @@
+/**
+ * 模块：tshop-um-wangwang 
+ * 皮肤（主题）: 时尚女装女鞋百搭模版(橙色)
+ * 规则:
+ * 		1. CSS选择器必须包含 ".tshop-um-wangwang"，禁止使用模块页面元素的ID选择器
+ *		2. CSS样式声明的position属性值不能使用:fixed
+ *		3. CSS样式文件中z-index属性值必须在1-99之间
+ *		4. CSS URL地址必须是淘宝URL白名单中或者本地（相对或绝对）URL 
+ */
+
+.tshop-um-wangwang {height: 60px; border: 1px solid #FFD9DE; padding: 10px; background: #fff; margin-bottom: 10px; }
+.tshop-um-wangwang .w_cont{background: #FFF0EB url(./././assets/images/bg_wangwang.jpg) no-repeat;height: 60px; padding-left: 140px;overflow: hidden;}
+.tshop-um-wangwang .w_list a{ display: inline-block;width: 10px;height: 15px; position: absolute; bottom: 3px; right: 6px; z-index: 3; text-align: right; border: }
+.tshop-um-wangwang .w_list span{z-index: 3; position: absolute;left: 0px; text-align: center;color: #FFFFF0;font-size: 12px; top:0px;visibility: hidden;width: 35px;overflow:hidden;height: 35px;background: #D15479; line-height: 35px; cursor: pointer;}
+.tshop-um-wangwang .w_box{float: left; margin-right: 10px; }
+.tshop-um-wangwang .w_item{overflow: hidden; float: left;width:33px; margin-left: 10px; height: 33px; border: 1px solid #FBDADE; background: #fff; padding: 1px; margin-top: 12px; position: relative;}
+.tshop-um-wangwang .w_item .w_img{width: 33px; height: 33px; position: absolute;z-index: 1;left: 1px; top: 1px;}
+.tshop-um-wangwang .w_sever{float: left; width: 35px; height: 37px;  background: #FFB57F url(./././assets/images/sever_Bg.jpg) no-repeat; line-height:1.3; text-align: center; color: #fff; margin-top:12px; }
+.tshop-um-wangwang .img1{background:#fff url(assets/images/w1.jpg) center center no-repeat;}
+.tshop-um-wangwang .img2{background:#fff url(assets/images/w2.jpg) center center no-repeat;}
+.tshop-um-wangwang .img3{background:#fff url(assets/images/w3.jpg) center center no-repeat;}
+.tshop-um-wangwang  .w_list .w_name { display: block; width: 35px; height: 35px;  position: absolute; z-index: 2;top: 0px; left: 0px;}
+.tshop-um-wangwang  .w_list .w_name:hover{ text-decoration: none; background: transparent;}
+.tshop-um-wangwang  .w_list .w_name:hover span{display: block;visibility: visible;}
+ 
+
+ 
